@@ -534,7 +534,12 @@
       {
         "app_id": "6848",
         "settings": {
-          "name": "Users 5 Most Recent Tickets"
+          "name": "Tasks"
+        },
+         {
+        "app_id": "6848",
+        "settings": {
+          "name": "Approvals"
         }
       }
     ]
@@ -542,9 +547,9 @@
   "tickets": {
     "generate_tickets": {
       "statuses": {
-        "solved": 50,
-        "open": 50,
-        "pending": 50
+        "solved": 100,
+        "open": 100,
+        "pending": 100
       },
       "ticket_payload": {
         "requester": {
