@@ -532,6 +532,7 @@
   "apps": {
     "add_apps": [
       {
+        {
         "app_id": "6848",
         "settings": {
           "name": "Tasks"
