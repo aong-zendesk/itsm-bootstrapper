@@ -9,11 +9,9 @@
 - [ ] HARDWARE
 - [ ] SOFTWARE
 
-**Pasted from Google Docs**
-
 # v1
 
-- Service Catalog
+Service Catalog
 - Software
 - Hardware
 - Network Access
