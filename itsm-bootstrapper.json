@@ -2,13 +2,27 @@
   "bootstrap": {
     "subdomain": "z3n-leroychan",
     "auth": {
-      "username": "lechan@zendesk.com",
-      "password": "xxx  "
+      "username": "<<YOUR EMAIL>>",
+      "password": "<<YOUR PASSWORD>>"
     },
     "customer": {
-      "name": "London Borough of Barking and Dagenham",
+      "name": "Your Friendly Neighborhood IT HelpDesk",
       "locale": "en"
     }
+  },
+   "talk": {
+    "add_number": {
+        "country_code": "US",
+        "purchase_first_available_number": true
+    },
+    "add_talk_agents": {
+      "enable_first_admin": true
+    },
+    "add_ivrs": [
+      {
+        "name": "IT IVR"
+      }
+    ]
   },
   "settings": {
     "account_settings": {
@@ -51,40 +65,21 @@
       },
       "add_recipient_addresses": [
         {
-          "email": "tax@{{subdomain}}.zendesk.com",
-          "name": "Council Tax"
-        },
-        {
-          "email": "waste@{{subdomain}}.zendesk.com",
-          "name": "Waste"
-        },
-        {
-          "email": "noise@{{subdomain}}.zendesk.com",
-          "name": "Noise"
-        },
-        {
-          "email": "parking@{{subdomain}}.zendesk.com",
-          "name": "Parking"
-        },
-        {
-          "email": "schools@{{subdomain}}.zendesk.com",
-          "name": "Schools"
-        },
-        {
-          "email": "benefits@{{subdomain}}.zendesk.com",
-          "name": "Benefits"
+          "email": "IT@{{subdomain}}.zendesk.com",
+          "name": "IT HelpDesk"
         }
       ]
     }
   },
+ 
   "ticket_views": {
     "add_ticket_views": {
       "options": {
         "reorder_newly_added_to_first": true
       },
       "views": [
-        {
-          "title": "🏠 Council Tax",
+        { 
+          "title": "📧 Email Tickets",
           "active": true,
           "position": 1,
           "output": {
@@ -101,231 +96,23 @@
             ]
           },
           "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket-form-council-tax}}"
-            }
+              {
+                  "field": "status",
+                  "operator": "less_than",
+                  "value": "solved"
+              },
+              {
+                  "field": "via_id",
+                  "operator": "is",
+                  "value": "4"
+              }
           ],
           "any": []
         },
         {
-          "title": "🗑 Waste",
-          "active": true,
-          "position": 2,
-          "output": {
-            "group_by": "status",
-            "group_order": "desc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "columns": [
-              "satisfaction_score",
-              "subject",
-              "requester",
-              "created",
-              "assignee"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket-form-waste}}"
-            }
-          ],
-          "any": []
-        },
-        {
-          "title": "📢 Noise",
+          "title": "💻 Website Requests",
           "active": true,
           "position": 3,
-          "output": {
-            "group_by": "status",
-            "group_order": "desc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "columns": [
-              "satisfaction_score",
-              "subject",
-              "requester",
-              "created",
-              "assignee"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket-form-noise}}"
-            }
-          ],
-          "any": []
-        },
-        {
-          "title": "🏫 Schools",
-          "active": true,
-          "position": 4,
-          "output": {
-            "group_by": "status",
-            "group_order": "desc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "columns": [
-              "satisfaction_score",
-              "subject",
-              "requester",
-              "created",
-              "assignee"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket-form-schools}}"
-            }
-          ],
-          "any": []
-        },
-        {
-          "title": "💷 Benefits",
-          "active": true,
-          "position": 5,
-          "output": {
-            "group_by": "status",
-            "group_order": "desc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "columns": [
-              "satisfaction_score",
-              "subject",
-              "requester",
-              "created",
-              "assignee"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket-form-benefits}}"
-            }
-          ],
-          "any": []
-        },
-        {
-          "title": "🚗 Parking",
-          "active": true,
-          "position": 6,
-          "output": {
-            "group_by": "status",
-            "group_order": "desc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "columns": [
-              "satisfaction_score",
-              "subject",
-              "requester",
-              "created",
-              "assignee"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket-form-parking}}"
-            }
-          ],
-          "any": []
-        },
-        {
-          "title": "📶 Rated tickets from the last 7 days",
-          "active": true,
-          "position": 7,
-          "output": {
-            "group_by": "satisfaction_score",
-            "group_order": "desc",
-            "sort_by": "updated",
-            "sort_order": "asc",
-            "columns": [
-              "via",
-              "subject",
-              "requester",
-              "created",
-              "assignee",
-              "satisfaction_score"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "greater_than",
-              "value": "new"
-            },
-            {
-              "field": "SOLVED",
-              "operator": "less_than",
-              "value": "169"
-            }
-          ],
-          "any": [
-            {
-              "field": "satisfaction_score",
-              "operator": "is",
-              "value": "good"
-            },
-            {
-              "field": "satisfaction_score",
-              "operator": "is",
-              "value": "good_with_comment"
-            },
-            {
-              "field": "satisfaction_score",
-              "operator": "is",
-              "value": "bad"
-            },
-            {
-              "field": "satisfaction_score",
-              "operator": "is",
-              "value": "bad_with_comment"
-            }
-          ]
-        },
-        {
-          "title": "🔥 Urgent unresolved tickets",
-          "active": true,
-          "position": 8,
           "output": {
             "group_by": "null",
             "group_order": "desc",
@@ -340,23 +127,107 @@
             ]
           },
           "all": [
-            {
-              "field": "status",
-              "operator": "is",
-              "value": "open"
-            },
-            {
-              "field": "priority",
-              "operator": "is",
-              "value": "urgent"
-            }
+              {
+                  "field": "status",
+                  "operator": "less_than",
+                  "value": "solved"
+              },
+              {
+                  "field": "via_id",
+                  "operator": "is",
+                  "value": "0"
+              }
+          ],
+          "any": []
+        },
+        {
+          "title": "📶 Rated tickets from the last 7 days",
+          "active": true,
+          "position": 2,
+          "output": {
+            "group_by": "satisfaction_score",
+            "group_order": "desc",
+            "sort_by": "updated",
+            "sort_order": "asc",
+            "columns": [
+                "via",
+                "subject",
+                "requester",
+                "created",
+                "assignee",
+                "satisfaction_score"
+            ]
+          },
+          "all": [
+              {
+                  "field": "status",
+                  "operator": "greater_than",
+                  "value": "new"
+              },
+              {
+                  "field": "SOLVED",
+                  "operator": "less_than",
+                  "value": "169"
+              }
+          ],
+          "any": [
+              {
+                  "field": "satisfaction_score",
+                  "operator": "is",
+                  "value": "good"
+              },
+              {
+                  "field": "satisfaction_score",
+                  "operator": "is",
+                  "value": "good_with_comment"
+              },
+              {
+                  "field": "satisfaction_score",
+                  "operator": "is",
+                  "value": "bad"
+              },
+              {
+                  "field": "satisfaction_score",
+                  "operator": "is",
+                  "value": "bad_with_comment"
+              }
+          ]
+        },
+        {
+          "title": "🔥 Urgent unresolved tickets",
+          "active": true,
+          "position": 3,
+          "output": {
+            "group_by": "null",
+            "group_order": "desc",
+            "sort_by": "nice_id",
+            "sort_order": "desc",
+            "columns": [
+              "satisfaction_score",
+              "subject",
+              "requester",
+              "created",
+              "assignee"
+            ]
+          },
+          "all": [
+              {
+                  "field": "status",
+                  "operator": "is",
+                  "value": "open"
+              },
+              {
+                  "field": "priority",
+                  "operator": "is",
+                  "value": "urgent"
+              }
           ],
           "any": []
         },
         {
           "title": "1️⃣ Tier 1 Support",
           "active": true,
-          "position": 9,
+          "position": 3,
           "output": {
             "group_by": "priority",
             "group_order": "asc",
@@ -373,18 +244,18 @@
             ]
           },
           "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            }
+              {
+                  "field": "status",
+                  "operator": "less_than",
+                  "value": "solved"
+              }
           ],
           "any": []
         },
         {
           "title": "☝️ Your unsolved tickets",
           "active": true,
-          "position": 10,
+          "position": 3,
           "output": {
             "group_by": "status",
             "group_order": "asc",
@@ -401,23 +272,23 @@
             ]
           },
           "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "assignee_id",
-              "operator": "is",
-              "value": "current_user"
-            }
+              {
+                  "field": "status",
+                  "operator": "less_than",
+                  "value": "solved"
+              },
+              {
+                  "field": "assignee_id",
+                  "operator": "is",
+                  "value": "current_user"
+              }
           ],
           "any": []
         },
         {
           "title": "🤷 Unassigned tickets (Triage)",
           "active": true,
-          "position": 11,
+          "position": 3,
           "output": {
             "group_by": "null",
             "group_order": "asc",
@@ -430,8 +301,7 @@
               "created",
               "priority",
               "sla_next_breach_at",
-              "group",
-              "attributes_match"
+              "group"
             ]
           },
           "all": [
@@ -455,23 +325,23 @@
     "add_user_fields": [
       {
         "type": "tagger",
-        "title": "Customer Type",
-        "description": "Customer Type",
+        "title": "Employee Type",
+        "description": "Employee Type",
         "position": "2",
         "active": true,
-        "key": "customer_type",
+        "key": "Employee_type",
         "custom_field_options": [
           {
-            "name": "Resident",
-            "value": "resident"
+            "name": "C-Staff",
+            "value": "cstaff"
           },
           {
-            "name": "Council Staff",
-            "value": "council_staff"
+            "name": "Managers",
+            "value": "managers"
           },
           {
-            "name": "Contractor",
-            "value": "contractor"
+            "name": "Staff",
+            "value": "staff"
           }
         ]
       },
@@ -496,10 +366,22 @@
     "add_organizations": {
       "organizations": [
         {
-          "name": "Biffa"
+          "name": "Sales"
         },
         {
-          "name": "Southern Electric"
+          "name": "Marketing"
+        },
+        {
+          "name": "IT"
+        },
+        {
+          "name": "HR"
+        },
+        {
+          "name": "Engineering"
+        },
+        {
+          "name": "C-Staff Office"
         }
       ]
     },
