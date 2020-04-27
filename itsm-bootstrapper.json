@@ -44,7 +44,7 @@
     },
     "support_settings": {
       "update_default_support_email": {
-        "name": "Kaws"
+        "name": "Zendesk Service Desk"
       },
       "add_recipient_addresses": [
         {
