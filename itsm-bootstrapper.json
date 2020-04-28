@@ -1100,11 +1100,7 @@
       "watchable": false,
       "raw_title": "{{zd.recently_solved_tickets}}"
     }
-  ],
-  "next_page": null,
-  "previous_page": null,
-  "count": 10
-}
+  
       ]
     }
   },
@@ -1747,140 +1743,9 @@
   },
   "macros": {
     "disable_default_macros": true,
-    "add_macros": [
-      {
-      "url": "https://z3nitsm.zendesk.com/api/v2/macros/360137595412.json",
-      "id": 360137595412,
-      "title": "Close and redirect to topics",
-      "active": true,
-      "updated_at": "2020-02-21T02:19:50Z",
-      "created_at": "2020-02-21T02:19:46Z",
-      "position": 9999,
-      "description": null,
-      "actions": [
-        {
-          "field": "status",
-          "value": "solved"
-        },
-        {
-          "field": "priority",
-          "value": "normal"
-        },
-        {
-          "field": "type",
-          "value": "incident"
-        },
-        {
-          "field": "assignee_id",
-          "value": "current_user"
-        },
-        {
-          "field": "group_id",
-          "value": "current_groups"
-        },
-        {
-          "field": "comment_value",
-          "value": "Thanks for your request. This issue you reported is a known issue. For more information, please visit our forums. "
-        }
-      ],
-      "restriction": null
-    },
-    {
-      "url": "https://z3nitsm.zendesk.com/api/v2/macros/360137595452.json",
-      "id": 360137595452,
-      "title": "Requester not responding",
-      "active": true,
-      "updated_at": "2020-02-21T02:19:50Z",
-      "created_at": "2020-02-21T02:19:46Z",
-      "position": 9999,
-      "description": null,
-      "actions": [
-        {
-          "field": "status",
-          "value": "pending"
-        },
-        {
-          "field": "comment_value",
-          "value": "Hello {{ticket.requester.name}}. Our agent {{current_user.name}} has tried to contact you about this request but we haven't heard back from you yet. Please let us know if we can be of further assistance. Thanks. "
-        }
-      ],
-      "restriction": null
-    },
-    {
-      "url": "https://z3nitsm.zendesk.com/api/v2/macros/360137595432.json",
-      "id": 360137595432,
-      "title": "Downgrade and inform",
-      "active": true,
-      "updated_at": "2020-02-21T02:19:50Z",
-      "created_at": "2020-02-21T02:19:46Z",
-      "position": 9999,
-      "description": null,
-      "actions": [
-        {
-          "field": "priority",
-          "value": "low"
-        },
-        {
-          "field": "comment_value",
-          "value": "We're currently experiencing unusually high traffic. We'll get back to you as soon as possible."
-        }
-      ],
-      "restriction": null
-    },
-    {
-      "url": "https://z3nitsm.zendesk.com/api/v2/macros/360137595352.json",
-      "id": 360137595352,
-      "title": "Take it!",
-      "active": true,
-      "updated_at": "2020-02-21T02:19:50Z",
-      "created_at": "2020-02-21T02:19:46Z",
-      "position": 9999,
-      "description": null,
-      "actions": [
-        {
-          "field": "group_id",
-          "value": "current_groups"
-        },
-        {
-          "field": "assignee_id",
-          "value": "current_user"
-        }
-      ],
-      "restriction": null
-    },
-    {
-      "url": "https://z3nitsm.zendesk.com/api/v2/macros/360139649211.json",
-      "id": 360139649211,
-      "title": "Upgrade to Problem",
-      "active": true,
-      "updated_at": "2020-04-28T07:06:57Z",
-      "created_at": "2020-03-03T05:36:32Z",
-      "position": 10000,
-      "description": null,
-      "actions": [
-        {
-          "field": "type",
-          "value": "problem"
-        },
-        {
-          "field": "group_id",
-          "value": "900000806866"
-        },
-        {
-          "field": "comment_mode_is_public",
-          "value": "false"
-        },
-        {
-          "field": "comment_value_html",
-          "value": "<p>Changing this into a problem ticket. Please tag the related incidents to this problem ticket.</p><p>Handing this over to Tier 2 support to look at the workaround and root cause.</p>"
-        }
-      ],
-      "restriction": null
-    }
-        ]
-      }
-    ]
-  },
+    "add_macros": []
+  }
+  ,
   "talk": {
     "add_number": {
         "country_code": "US",
