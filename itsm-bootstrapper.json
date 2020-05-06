@@ -81,7 +81,6 @@
                   "sla_next_breach_at"
               ]
           },
-          "conditions": {
             "all": [
               {
                 "field": "ticket_form_id",
@@ -105,10 +104,8 @@
                 "operator": "is",
                 "value": "current_groups"
               }
-            ]
-          },
+            ],
           "restriction": null,
-          "watchable": false,
           "raw_title": "📞 Requests "
         },
         {
@@ -130,7 +127,6 @@
               "sla_next_breach_at"
               ]
           },
-          "conditions": {
             "all": [
               {
                 "field": "ticket_form_id",
@@ -159,10 +155,8 @@
                 "operator": "is",
                 "value": "current_groups"
               }
-            ]
-          },
+            ],
           "restriction": null,
-          "watchable": false,
           "raw_title": "💻 Incidents"
         },
         {
@@ -182,7 +176,6 @@
               "title": "Group"
               ]
             },
-          "conditions": {
             "all": [
               {
                 "field": "ticket_form_id",
@@ -211,10 +204,8 @@
                 "operator": "is",
                 "value": "current_groups"
               }
-            ]
-          },
+            ],
           "restriction": null,
-          "watchable": false,
           "raw_title": "⏱️ Problem "
         },
         {
@@ -234,7 +225,6 @@
                 "group"
               ]
             },
-          "conditions": {
             "all": [
               {
                 "field": "ticket_form_id",
@@ -258,10 +248,8 @@
                 "operator": "is",
                 "value": "current_groups"
               }
-            ]
-          },
+            ],
           "restriction": null,
-          "watchable": false,
           "raw_title": "📃 Change "
         },
         {
@@ -283,7 +271,6 @@
               "priority",
             ]
           },
-          "conditions": {
             "all": [
               {
                 "field": "status",
@@ -296,10 +283,8 @@
                 "value": "current_user"
               }
             ],
-            "any": []
-          },
+            "any": [],
           "restriction": null,
-          "watchable": true,
           "raw_title": "{{zd.your_unsolved_tickets}}"
         },
         {
@@ -316,7 +301,6 @@
               "group"
               ]
             },
-          "conditions": {
             "all": [
               {
                 "field": "assignee_id",
@@ -329,10 +313,8 @@
                 "value": "solved"
               }
             ],
-            "any": []
-          },
+            "any": [],
           "restriction": null,
-          "watchable": true,
           "raw_title": "{{zd.unassigned_tickets}}"
         },
         {
@@ -354,7 +336,6 @@
               "updated"
               ]
             },
-          "conditions": {
             "all": [
               {
                 "field": "status",
@@ -362,10 +343,8 @@
                 "value": "solved"
               }
             ],
-            "any": []
-          },
+            "any": [],
           "restriction": null,
-          "watchable": false,
           "raw_title": "{{zd.all_unsolved_tickets}}"
         },
         {
@@ -387,7 +366,6 @@
             "due_date",
               ]
             },
-          "conditions": {
             "all": [
               {
                 "field": "status",
@@ -400,10 +378,8 @@
                 "value": "task"
               }
             ],
-            "any": []
-          },
+            "any": [],
           "restriction": null,
-          "watchable": false,
           "raw_title": "{{zd.current_tasks}}"
         },
         {
@@ -425,7 +401,6 @@
               "due_date"
               ]
             },
-          "conditions": {
             "all": [
               {
                 "field": "status",
@@ -438,10 +413,8 @@
                 "value": "0"
               }
             ],
-            "any": []
-          },
+            "any": [],
           "restriction": null,
-          "watchable": false,
           "raw_title": "{{zd.overdue_tasks}}"
         },
         {
@@ -464,7 +437,6 @@
               "group",
               ]
               },
-          "conditions": {
             "all": [
               {
                 "field": "status",
@@ -472,10 +444,8 @@
                 "value": "solved"
               }
             ],
-            "any": []
-          },
+            "any": [],
           "restriction": null,
-          "watchable": false,
           "raw_title": "{{zd.recently_solved_tickets}}"
         }
       ]
