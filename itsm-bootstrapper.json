@@ -70,41 +70,41 @@
           "position": 1,
           "description": null,
           "output": {
-                "columns": [
-                 "satisfaction_score",
-                  360029159452,
-                  "requester",
-                  "created",
-                  "assignee",
-                  "priority",
-                  "group",
-                  "sla_next_breach_at"
-              ]
+            "columns": [
+              "satisfaction_score",
+              360029159452,
+              "requester",
+              "created",
+              "assignee",
+              "priority",
+              "group",
+              "sla_next_breach_at"
+            ]
           },
-            "all": [
-              {
-                "field": "ticket_form_id",
-                "operator": "is",
-                "value": "360000740131"
-              },
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              }
-            ],
-            "any": [
-              {
-                "field": "assignee_id",
-                "operator": "is",
-                "value": "current_user"
-              },
-              {
-                "field": "group_id",
-                "operator": "is",
-                "value": "current_groups"
-              }
-            ],
+          "all": [
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "360000740131"
+            },
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            }
+          ],
+          "any": [
+            {
+              "field": "assignee_id",
+              "operator": "is",
+              "value": "current_user"
+            },
+            {
+              "field": "group_id",
+              "operator": "is",
+              "value": "current_groups"
+            }
+          ],
           "restriction": null,
           "raw_title": "📞 Requests "
         },
@@ -114,7 +114,7 @@
           "position": 2,
           "description": null,
           "output": {
-              "columns": [
+            "columns": [
               "via",
               "type",
               "satisfaction_score",
@@ -125,37 +125,37 @@
               "priority",
               "group",
               "sla_next_breach_at"
-              ]
+            ]
           },
-            "all": [
-              {
-                "field": "ticket_form_id",
-                "operator": "is",
-                "value": "360000731751"
-              },
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              },
-              {
-                "field": "type",
-                "operator": "is_not",
-                "value": "problem"
-              }
-            ],
-            "any": [
-              {
-                "field": "assignee_id",
-                "operator": "is",
-                "value": "current_user"
-              },
-              {
-                "field": "group_id",
-                "operator": "is",
-                "value": "current_groups"
-              }
-            ],
+          "all": [
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "360000731751"
+            },
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            },
+            {
+              "field": "type",
+              "operator": "is_not",
+              "value": "problem"
+            }
+          ],
+          "any": [
+            {
+              "field": "assignee_id",
+              "operator": "is",
+              "value": "current_user"
+            },
+            {
+              "field": "group_id",
+              "operator": "is",
+              "value": "current_groups"
+            }
+          ],
           "restriction": null,
           "raw_title": "💻 Incidents"
         },
@@ -165,46 +165,45 @@
           "position": 3,
           "description": null,
           "output": {
-              "columns": [
+            "columns": [
               "satisfaction_score",
               "subject",
               "requester",
               "created",
               "assignee",
               "priority",
-              "group",
-              "title": "Group"
-              ]
+              "group"
+            ]
+          },
+          "all": [
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "360000731751"
             },
-            "all": [
-              {
-                "field": "ticket_form_id",
-                "operator": "is",
-                "value": "360000731751"
-              },
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              },
-              {
-                "field": "type",
-                "operator": "is",
-                "value": "problem"
-              }
-            ],
-            "any": [
-              {
-                "field": "assignee_id",
-                "operator": "is",
-                "value": "current_user"
-              },
-              {
-                "field": "group_id",
-                "operator": "is",
-                "value": "current_groups"
-              }
-            ],
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            },
+            {
+              "field": "type",
+              "operator": "is",
+              "value": "problem"
+            }
+          ],
+          "any": [
+            {
+              "field": "assignee_id",
+              "operator": "is",
+              "value": "current_user"
+            },
+            {
+              "field": "group_id",
+              "operator": "is",
+              "value": "current_groups"
+            }
+          ],
           "restriction": null,
           "raw_title": "⏱️ Problem "
         },
@@ -215,40 +214,40 @@
           "description": null,
           "output": {
             "columns": [
-                360029231971,
-                "satisfaction_score",
-                "subject",
-                "requester",
-                "created",
-                "assignee",
-                "priority",
-                "group"
-              ]
+              360029231971,
+              "satisfaction_score",
+              "subject",
+              "requester",
+              "created",
+              "assignee",
+              "priority",
+              "group"
+            ]
+          },
+          "all": [
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "360000734012"
             },
-            "all": [
-              {
-                "field": "ticket_form_id",
-                "operator": "is",
-                "value": "360000734012"
-              },
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              }
-            ],
-            "any": [
-              {
-                "field": "assignee_id",
-                "operator": "is",
-                "value": "current_user"
-              },
-              {
-                "field": "group_id",
-                "operator": "is",
-                "value": "current_groups"
-              }
-            ],
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            }
+          ],
+          "any": [
+            {
+              "field": "assignee_id",
+              "operator": "is",
+              "value": "current_user"
+            },
+            {
+              "field": "group_id",
+              "operator": "is",
+              "value": "current_groups"
+            }
+          ],
           "restriction": null,
           "raw_title": "📃 Change "
         },
@@ -257,33 +256,33 @@
           "active": true,
           "position": 5,
           "description": null,
-            "sort": {
-              "id": "ticket_id",
-              "title": "ID",
-              "order": "desc"
-            },
+          "sort": {
+            "id": "ticket_id",
+            "title": "ID",
+            "order": "desc"
+          },
           "output": {
-              "columns": [
+            "columns": [
               "subject",
               "requester",
               "created",
               "type",
-              "priority",
+              "priority"
             ]
           },
-            "all": [
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              },
-              {
-                "field": "assignee_id",
-                "operator": "is",
-                "value": "current_user"
-              }
-            ],
-            "any": [],
+          "all": [
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            },
+            {
+              "field": "assignee_id",
+              "operator": "is",
+              "value": "current_user"
+            }
+          ],
+          "any": [],
           "restriction": null,
           "raw_title": "{{zd.your_unsolved_tickets}}"
         },
@@ -293,27 +292,27 @@
           "position": 6,
           "description": null,
           "output": {
-              "columns": [
+            "columns": [
               "subject",
               "requester",
               "created",
               "priority",
               "group"
-              ]
+            ]
+          },
+          "all": [
+            {
+              "field": "assignee_id",
+              "operator": "is",
+              "value": ""
             },
-            "all": [
-              {
-                "field": "assignee_id",
-                "operator": "is",
-                "value": ""
-              },
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              }
-            ],
-            "any": [],
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            }
+          ],
+          "any": [],
           "restriction": null,
           "raw_title": "{{zd.unassigned_tickets}}"
         },
@@ -322,28 +321,28 @@
           "active": true,
           "position": 7,
           "description": null,
-            "sort": {
-              "id": "ticket_id",
-              "title": "ID",
-              "order": "desc"
-            },
+          "sort": {
+            "id": "ticket_id",
+            "title": "ID",
+            "order": "desc"
+          },
           "output": {
-              "columns": [
+            "columns": [
               "subject",
               "requester",
               "created",
               "priority",
               "updated"
-              ]
-            },
-            "all": [
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              }
-            ],
-            "any": [],
+            ]
+          },
+          "all": [
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
+            }
+          ],
+          "any": [],
           "restriction": null,
           "raw_title": "{{zd.all_unsolved_tickets}}"
         },
@@ -352,33 +351,33 @@
           "active": true,
           "position": 9,
           "description": null,
-            "sort": {
-              "id": "assignee",
-              "title": "Assignee",
-              "order": "desc"
-            },
+          "sort": {
+            "id": "assignee",
+            "title": "Assignee",
+            "order": "desc"
+          },
           "output": {
             "columns": [
-            "subject",
-            "requester",
-            "created",
-            "assignee",
-            "due_date",
-              ]
+              "subject",
+              "requester",
+              "created",
+              "assignee",
+              "due_date"
+            ]
+          },
+          "all": [
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
             },
-            "all": [
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              },
-              {
-                "field": "type",
-                "operator": "is",
-                "value": "task"
-              }
-            ],
-            "any": [],
+            {
+              "field": "type",
+              "operator": "is",
+              "value": "task"
+            }
+          ],
+          "any": [],
           "restriction": null,
           "raw_title": "{{zd.current_tasks}}"
         },
@@ -387,33 +386,33 @@
           "active": true,
           "position": 10,
           "description": null,
-            "sort": {
-              "id": "assignee",
-              "title": "Assignee",
-              "order": "desc"
-            },
-            "output": {
-              "columns": [
+          "sort": {
+            "id": "assignee",
+            "title": "Assignee",
+            "order": "desc"
+          },
+          "output": {
+            "columns": [
               "subject",
               "requester",
               "created",
               "assignee",
               "due_date"
-              ]
+            ]
+          },
+          "all": [
+            {
+              "field": "status",
+              "operator": "less_than",
+              "value": "solved"
             },
-            "all": [
-              {
-                "field": "status",
-                "operator": "less_than",
-                "value": "solved"
-              },
-              {
-                "field": "due_at",
-                "operator": "greater_than",
-                "value": "0"
-              }
-            ],
-            "any": [],
+            {
+              "field": "due_at",
+              "operator": "greater_than",
+              "value": "0"
+            }
+          ],
+          "any": [],
           "restriction": null,
           "raw_title": "{{zd.overdue_tasks}}"
         },
@@ -422,29 +421,29 @@
           "active": true,
           "position": 13,
           "description": null,
-            "sort": {
-              "id": "solved",
-              "title": "Solved",
-              "order": "desc"
-            },
+          "sort": {
+            "id": "solved",
+            "title": "Solved",
+            "order": "desc"
+          },
           "output": {
-              "columns": [
+            "columns": [
               "subject",
               "requester",
               "created",
               "solved",
               "priority",
-              "group",
-              ]
-              },
-            "all": [
-              {
-                "field": "status",
-                "operator": "is",
-                "value": "solved"
-              }
-            ],
-            "any": [],
+              "group"
+            ]
+          },
+          "all": [
+            {
+              "field": "status",
+              "operator": "is",
+              "value": "solved"
+            }
+          ],
+          "any": [],
           "restriction": null,
           "raw_title": "{{zd.recently_solved_tickets}}"
         }
