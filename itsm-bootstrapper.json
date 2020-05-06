@@ -65,25 +65,10 @@
       },
       "views": [
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360139648891.json",
-          "id": 360139648891,
           "title": "📞 Requests Tickets",
           "active": true,
-          "updated_at": "2020-04-21T02:04:14Z",
-          "created_at": "2020-03-03T05:25:01Z",
           "position": 1,
           "description": null,
-          "execution": {
-            "group_by": null,
-            "group_order": "asc",
-            "sort_by": "group",
-            "sort_order": "desc",
-            "group": null,
-            "sort": {
-              "id": "group",
-              "title": "Group",
-              "order": "desc"
-            },
             "columns": [
               {
                 "id": "satisfaction_score",
@@ -190,25 +175,10 @@
           "raw_title": "📞 Requests "
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360139390752.json",
-          "id": 360139390752,
           "title": "💻 Incidents Tickets",
           "active": true,
-          "updated_at": "2020-04-21T02:04:30Z",
-          "created_at": "2020-03-03T05:24:32Z",
           "position": 2,
           "description": null,
-          "execution": {
-            "group_by": null,
-            "group_order": "asc",
-            "sort_by": "group",
-            "sort_order": "desc",
-            "group": null,
-            "sort": {
-              "id": "group",
-              "title": "Group",
-              "order": "desc"
-            },
             "columns": [
               {
                 "id": "via",
@@ -331,25 +301,10 @@
           "raw_title": "💻 Incidents"
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360139391332.json",
-          "id": 360139391332,
           "title": "⏱️ Problem Tickets",
           "active": true,
-          "updated_at": "2020-04-21T02:19:59Z",
-          "created_at": "2020-03-03T05:26:35Z",
           "position": 3,
           "description": null,
-          "execution": {
-            "group_by": null,
-            "group_order": "asc",
-            "sort_by": "group",
-            "sort_order": "desc",
-            "group": null,
-            "sort": {
-              "id": "group",
-              "title": "Group",
-              "order": "desc"
-            },
             "columns": [
               {
                 "id": "satisfaction_score",
@@ -448,25 +403,10 @@
           "raw_title": "⏱️ Problem "
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360139648911.json",
-          "id": 360139648911,
           "title": "📃 Change Tickets",
           "active": true,
-          "updated_at": "2020-04-21T02:20:07Z",
-          "created_at": "2020-03-03T05:26:49Z",
           "position": 4,
           "description": null,
-          "execution": {
-            "group_by": null,
-            "group_order": "asc",
-            "sort_by": "group",
-            "sort_order": "desc",
-            "group": null,
-            "sort": {
-              "id": "group",
-              "title": "Group",
-              "order": "desc"
-            },
             "columns": [
               {
                 "id": 360029231971,
@@ -573,24 +513,10 @@
           "raw_title": "📃 Change "
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360137595192.json",
-          "id": 360137595192,
           "title": "Your unsolved tickets",
           "active": true,
-          "updated_at": "2020-04-21T02:20:07Z",
-          "created_at": "2020-02-21T02:19:46Z",
           "position": 5,
           "description": null,
-          "execution": {
-            "group_by": "status",
-            "group_order": "asc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "group": {
-              "id": "status",
-              "title": "Status",
-              "order": "asc"
-            },
             "sort": {
               "id": "ticket_id",
               "title": "ID",
@@ -662,25 +588,10 @@
           "raw_title": "{{zd.your_unsolved_tickets}}"
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360137595292.json",
-          "id": 360137595292,
           "title": "Unassigned tickets",
           "active": true,
-          "updated_at": "2020-03-03T05:28:56Z",
-          "created_at": "2020-02-21T02:19:46Z",
           "position": 6,
           "description": null,
-          "execution": {
-            "group_by": null,
-            "group_order": "asc",
-            "sort_by": "created",
-            "sort_order": "desc",
-            "group": null,
-            "sort": {
-              "id": "created",
-              "title": "Requested",
-              "order": "desc"
-            },
             "columns": [
               {
                 "id": "subject",
@@ -747,24 +658,10 @@
           "raw_title": "{{zd.unassigned_tickets}}"
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360137595272.json",
-          "id": 360137595272,
           "title": "All unsolved tickets",
           "active": true,
-          "updated_at": "2020-04-07T06:16:06Z",
-          "created_at": "2020-02-21T02:19:46Z",
           "position": 7,
           "description": null,
-          "execution": {
-            "group_by": "assignee",
-            "group_order": "asc",
-            "sort_by": "nice_id",
-            "sort_order": "desc",
-            "group": {
-              "id": "assignee",
-              "title": "Assignee",
-              "order": "asc"
-            },
             "sort": {
               "id": "ticket_id",
               "title": "ID",
@@ -831,24 +728,10 @@
           "raw_title": "{{zd.all_unsolved_tickets}}"
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360137595372.json",
-          "id": 360137595372,
           "title": "Current tasks",
           "active": true,
-          "updated_at": "2020-04-07T06:15:55Z",
-          "created_at": "2020-02-21T02:19:46Z",
           "position": 9,
           "description": null,
-          "execution": {
-            "group_by": "due_date",
-            "group_order": "asc",
-            "sort_by": "assignee",
-            "sort_order": "desc",
-            "group": {
-              "id": "due_date",
-              "title": "Due date",
-              "order": "asc"
-            },
             "sort": {
               "id": "assignee",
               "title": "Assignee",
@@ -920,24 +803,10 @@
           "raw_title": "{{zd.current_tasks}}"
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360137595392.json",
-          "id": 360137595392,
           "title": "Overdue tasks",
           "active": true,
-          "updated_at": "2020-04-07T06:15:59Z",
-          "created_at": "2020-02-21T02:19:46Z",
           "position": 10,
           "description": null,
-          "execution": {
-            "group_by": "due_date",
-            "group_order": "asc",
-            "sort_by": "assignee",
-            "sort_order": "desc",
-            "group": {
-              "id": "due_date",
-              "title": "Due date",
-              "order": "asc"
-            },
             "sort": {
               "id": "assignee",
               "title": "Assignee",
@@ -1009,24 +878,10 @@
           "raw_title": "{{zd.overdue_tasks}}"
         },
         {
-          "url": "https://z3nitsm.zendesk.com/api/v2/views/360137595252.json",
-          "id": 360137595252,
           "title": "Recently solved tickets",
           "active": true,
-          "updated_at": "2020-03-03T05:28:56Z",
-          "created_at": "2020-02-21T02:19:46Z",
           "position": 13,
           "description": null,
-          "execution": {
-            "group_by": "assignee",
-            "group_order": "asc",
-            "sort_by": "solved",
-            "sort_order": "desc",
-            "group": {
-              "id": "assignee",
-              "title": "Assignee",
-              "order": "asc"
-            },
             "sort": {
               "id": "solved",
               "title": "Solved",
@@ -1310,7 +1165,7 @@
             "value": [
               "requester_and_ccs",
               "Request #{{ticket.id}}: How would you rate the support you received?",
-              "Hello {{ticket.requester.name}},\n\nWe'd love to hear what you think of our customer service. Please take a moment to answer one simple question by clicking either link below:\n\n{{satisfaction.rating_section}}\n\nHere's a reminder of what your ticket was about:\n\n{{ticket.comments_formatted}}"
+              "Hello {{ticket.requester.name}},\n\nWe'd love to hear what you think of our support service. Please take a moment to answer one simple question by clicking either link below:\n\n{{satisfaction.rating_section}}\n\nHere's a reminder of what your ticket was about:\n\n{{ticket.comments_formatted}}"
             ]
           }
         ]
@@ -1352,8 +1207,6 @@
     },
     "add_ticket_fields": [
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231331.json",
-        "id": 360029231331,
         "type": "tagger",
         "title": "Category",
         "raw_title": "Category",
@@ -1420,8 +1273,6 @@
         ]
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029162472.json",
-        "id": 360029162472,
         "type": "text",
         "title": "Workaround ",
         "raw_title": "Workaround ",
@@ -1444,8 +1295,6 @@
         "agent_description": "Workaround "
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231791.json",
-        "id": 360029231791,
         "type": "text",
         "title": "Root Cause",
         "raw_title": "Root Cause",
@@ -1468,8 +1317,6 @@
         "agent_description": "Root Cause"
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029232771.json",
-        "id": 360029232771,
         "type": "checkbox",
         "title": "Known Error?",
         "raw_title": "Known Error?",
@@ -1492,8 +1339,6 @@
         "agent_description": "Known Error?"
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231811.json",
-        "id": 360029231811,
         "type": "text",
         "title": "Known Error Article",
         "raw_title": "Known Error Article",
@@ -1516,8 +1361,6 @@
         "agent_description": "Known Error Article"
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029159452.json",
-        "id": 360029159452,
         "type": "tagger",
         "title": "Service Catalog",
         "raw_title": "Service Catalog",
@@ -1570,8 +1413,6 @@
         ]
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231971.json",
-        "id": 360029231971,
         "type": "tagger",
         "title": "Change Type",
         "raw_title": "Change Type",
@@ -1619,8 +1460,6 @@
     ],
     "add_ticket_forms": [
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_forms/360000731751.json",
-        "id": 360000731751,
         "name": "IT Incident",
         "raw_name": "IT Incident",
         "display_name": "Need help?",
@@ -1710,8 +1549,6 @@
         ]
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_forms/360000740131.json",
-        "id": 360000740131,
         "name": "Service Catalog",
         "raw_name": "Service Catalog",
         "display_name": "Request something?",
@@ -1745,8 +1582,6 @@
         "agent_conditions": []
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_forms/360000734012.json",
-        "id": 360000734012,
         "name": "Change Request",
         "raw_name": "Change Request",
         "display_name": "Requesting a change?",
@@ -1780,8 +1615,6 @@
         "agent_conditions": []
       },
       {
-        "url": "https://z3nitsm.zendesk.com/api/v2/ticket_forms/360000734032.json",
-        "id": 360000734032,
         "name": "Problem Ticket",
         "raw_name": "Problem Ticket",
         "display_name": "",
@@ -1837,8 +1670,6 @@
     ],
     "add_categories": [
       {
-        "id": 360002698111,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/categories/360002698111-Service-Catalog.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/categories/360002698111-Service-Catalog",
         "position": 0,
         "created_at": "2020-03-03T02:29:39Z",
@@ -1850,8 +1681,6 @@
         "outdated": false
       },
       {
-        "id": 360002675732,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/categories/360002675732-FAQ-Announcements.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/categories/360002675732-FAQ-Announcements",
         "position": 0,
         "created_at": "2020-03-02T06:44:26Z",
@@ -1865,8 +1694,6 @@
     ],
     "add_sections": [
       {
-        "id": 360008094351,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/sections/360008094351-Known-Error-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/sections/360008094351-Known-Error-",
         "category_id": 360002675732,
         "position": 0,
@@ -1882,8 +1709,6 @@
         "theme_template": "section_page"
       },
       {
-        "id": 360008091951,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/sections/360008091951-Hardware.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/sections/360008091951-Hardware",
         "category_id": 360002698111,
         "position": 0,
@@ -1899,8 +1724,6 @@
         "theme_template": "section_page"
       },
       {
-        "id": 360007988372,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/sections/360007988372-Software.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/sections/360007988372-Software",
         "category_id": 360002698111,
         "position": 0,
@@ -1916,8 +1739,6 @@
         "theme_template": "section_page"
       },
       {
-        "id": 360007977572,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/sections/360007977572-FAQ.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/sections/360007977572-FAQ",
         "category_id": 360002675732,
         "position": 0,
@@ -1933,8 +1754,6 @@
         "theme_template": "section_page"
       },
       {
-        "id": 360007977552,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/sections/360007977552-Announcements.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/sections/360007977552-Announcements",
         "category_id": 360002675732,
         "position": 0,
@@ -1952,8 +1771,6 @@
     ],
     "add_articles": [
       {
-        "id": 900000649646,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/900000649646-Slack-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/900000649646-Slack-",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -1978,8 +1795,6 @@
         "body": "<p><img src=\"https://z3nitsm.zendesk.com/hc/article_attachments/900000966463/22.PNG\" alt=\"22.PNG\"></p>\n<p class=\"wysiwyg-text-align-center\"><button onclick=\"window.location.href='https://z3nitsm.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000740131'\">Submit Request</button></p>"
       },
       {
-        "id": 900000649486,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/900000649486-Huawei-P30-Android-Phone-8-GB-RAM-512GB-ROM-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/900000649486-Huawei-P30-Android-Phone-8-GB-RAM-512GB-ROM-",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2004,8 +1819,6 @@
         "body": "<p><img src=\"https://z3nitsm.zendesk.com/hc/article_attachments/900000955226/Capture2.PNG\" alt=\"Capture2.PNG\"></p>\n<p class=\"wysiwyg-text-align-center\"><button onclick=\"window.location.href='https://z3nitsm.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000740131'\">Submit Request</button></p>"
       },
       {
-        "id": 360040429131,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360040429131-Known-Error-1.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360040429131-Known-Error-1",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2032,8 +1845,6 @@
         "body": null
       },
       {
-        "id": 360040012212,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360040012212-Microsoft-Office-365.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360040012212-Microsoft-Office-365",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2058,8 +1869,6 @@
         "body": "<p><img src=\"https://z3nitsm.zendesk.com/hc/article_attachments/360051197411/Capture1.PNG\" alt=\"Capture1.PNG\"></p>\n<p>Stay organized across your devices Be in control and master your day with everything: email, calendars, to-do lists, and files in one place. Everything in one place Outlook brings all your email, calendar events, and files together so you don't have to. One secured place for files and photos With 1 TB of OneDrive cloud storage you have one place for your favorite pictures, videos, and files.</p>\n<p class=\"wysiwyg-text-align-center\"><button onclick=\"window.location.href='https://z3nitsm.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000740131'\">Submit Request</button></p>"
       },
       {
-        "id": 360040012192,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360040012192-Macbook-Pro-13-inch-model.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360040012192-Macbook-Pro-13-inch-model",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2084,8 +1893,6 @@
         "body": "<p class=\"wysiwyg-text-align-center\"><img src=\"https://z3nitsm.zendesk.com/hc/article_attachments/360051096112/Capture1.PNG\" alt=\"Capture1.PNG\"></p>\n<p class=\"wysiwyg-text-align-center\"><button onclick=\"window.location.href='https://z3nitsm.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000740131'\">Submit Request</button></p>"
       },
       {
-        "id": 360039969512,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360039969512-How-can-agents-leverage-knowledge-to-help-customers-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360039969512-How-can-agents-leverage-knowledge-to-help-customers-",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2110,8 +1917,6 @@
         "body": "<p>You can use our <a href=\"https://support.zendesk.com/hc/en-us/articles/115012706488\" target=\"_blank\">Knowledge Capture app</a> to leverage your team’s collective knowledge.</p>\n<p>Using the app, agents can:\n</p><ul>\n  <li>Search the Help Center without leaving the ticket</li>\n  <li>Insert links to relevant Help Center articles in ticket comments</li>\n  <li>Add inline feedback to existing articles that need updates</li>\n  <li>Create new articles while answering tickets using a pre-defined template</li>\n</ul>\n\n\n<p>Agents never have to leave the ticket interface to share, flag, or create knowledge, so they can help the customer, while also improving your self-service offerings for other customers.</p>\n\n<p>To get started, see our <a href=\"https://support.zendesk.com/hc/en-us/articles/360001975088\" target=\"_blank\">Knowledge Capture documentation</a>.</p>\n\n<p>And before your agents can start creating new knowledge directly from tickets, you’ll need to <a href=\"https://support.zendesk.com/hc/en-us/articles/115002374987\" target=\"_blank\">create a template</a> for them to use. To help you along, we’ve provided some template ideas below. You can copy and paste any sample template below into a new article, add the <strong>KCTemplate</strong> label to the article, and you’ll be all set.</p>\n\n<h4>Q&amp;A template:</h4>\n\n<blockquote>\n\n<p>\n</p>\n<h3>[Title]</h3>\n\n\n<p>\n</p>\n<h3>Question</h3>\nwrite the question here.\n\n\n<p>\n</p>\n<h3>Answer</h3>\nwrite the answer here.\n\n\n</blockquote>\n\n<h4>Solution template:</h4>\n\n<blockquote>\n\n<p>\n</p>\n<h3>[Title]</h3>\n\n\n<p>\n</p>\n<h3>Symptoms</h3>\nwrite the symptoms here.\n\n\n<p>\n</p>\n<h3>Resolution</h3>\nwrite the resolution here.\n\n\n<p>\n</p>\n<h3>Cause</h3>\nwrite the cause here.\n\n\n</blockquote>\n\n<h4>How-to template:</h4>\n\n<blockquote>\n\n<p>\n</p>\n<h3>[Title]</h3>\n\n\n<p>\n</p>\n<h3>Objective</h3>\nwrite the purpose or task here.\n\n\n<p>\n</p>\n<h3>Procedure</h3>\nwrite the steps here.\n\n\n</blockquote>\n"
       },
       {
-        "id": 360039969492,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360039969492-How-do-I-publish-my-content-in-other-languages-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360039969492-How-do-I-publish-my-content-in-other-languages-",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2136,8 +1941,6 @@
         "body": "<p>If you have <a href=\"https://support.zendesk.com/hc/en-us/articles/224857687\" target=\"_blank\">configured your Help Center to support multiple languages</a>, you can publish content in your supported languages. </p>\n\n<p>Here's the workflow for localizing your Help Center content into other languages:</p>\n\n<ol>\n<li>Get your content translated in the other languages.</li>\n<li>Configure the Help Center to support all your languages.</li>\n<li>Add the translated content to the Help Center.</li>\n</ol>\n\n\n<p>For complete instructions, see <a href=\"https://support.zendesk.com/hc/en-us/articles/203664336#topic_inn_3qy_43\" target=\"_blank\">Localizing the Help Center</a>.</p>"
       },
       {
-        "id": 360039969472,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360039969472-How-do-I-customize-my-Help-Center-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360039969472-How-do-I-customize-my-Help-Center-",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2162,8 +1965,6 @@
         "body": "<p>You can modify the look and feel of your Help Center by changing colors and fonts. See <a href=\"https://support.zendesk.com/hc/en-us/articles/206177737\" target=\"_blank\">Branding your Help Center</a> to learn how.</p>\n\n<p>You can also change the design of your Help Center. If you're comfortable working with page code, you can dig in to the site's HTML, CSS, and Javascript to customize your theme. To get started, see <a href=\"https://support.zendesk.com/hc/en-us/articles/203664326\" target=\"_blank\">Customizing the Help Center</a>.</p>"
       },
       {
-        "id": 360039969452,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360039969452-What-are-these-sections-and-articles-doing-here-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360039969452-What-are-these-sections-and-articles-doing-here-",
         "author_id": 394197207112,
         "comments_disabled": false,
@@ -2188,8 +1989,6 @@
         "body": "<p>This FAQ is a section in the General category of your Help Center knowledge base. We created this category and a few common sections to help you get started with your Help Center.</p>\n\n<p>The knowledge base in the Help Center consists of three main page types: category pages, section pages, and articles. Here's the structure:</p>\n\n<p><img src=\"//static.zdassets.com/hc/assets/sample-articles/article0_image.png\" alt=\"image\"></p>\n\n<p>You can create your own categories, sections, and articles and modify or completely delete ours. See the <a href=\"https://support.zendesk.com/hc/en-us/articles/218222877\" target=\"_blank\">Organizing knowledge base content</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/203664366\" target=\"_blank\">Creating articles in the Help Center</a> to learn how.</p>"
       },
       {
-        "id": 360039969432,
-        "url": "https://z3nitsm.zendesk.com/api/v2/help_center/en-us/articles/360039969432-Welcome-to-your-Help-Center-.json",
         "html_url": "https://z3nitsm.zendesk.com/hc/en-us/articles/360039969432-Welcome-to-your-Help-Center-",
         "author_id": 394197207112,
         "comments_disabled": false,
