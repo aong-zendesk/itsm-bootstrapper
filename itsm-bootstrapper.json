@@ -69,81 +69,44 @@
           "active": true,
           "position": 1,
           "description": null,
-            "columns": [
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": 360029159452,
-                "title": "Service Catalog",
-                "type": "tagger",
-                "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029159452.json"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              },
-              {
-                "id": "sla_next_breach_at",
-                "title": "Next SLA breach"
-              }
-            ],
-            "fields": [
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              },
-              {
-                "id": "sla_next_breach_at",
-                "title": "Next SLA breach"
-              }
-            ],
-            "custom_fields": [
-              {
-                "id": 360029159452,
-                "title": "Service Catalog",
-                "type": "tagger",
-                "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029159452.json"
-              }
-            ]
-          },
+            "output": {
+                columns": [
+                {
+                  "id": "satisfaction_score",
+                  "title": "Satisfaction"
+                },
+                {
+                  "id": 360029159452,
+                  "title": "Service Catalog",
+                  "type": "tagger",
+                  "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029159452.json"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "assignee",
+                  "title": "Assignee"
+                },
+                {
+                  "id": "priority",
+                  "title": "Priority"
+                },
+                {
+                  "id": "group",
+                  "title": "Group"
+                },
+                {
+                  "id": "sla_next_breach_at",
+                  "title": "Next SLA breach"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -179,92 +142,50 @@
           "active": true,
           "position": 2,
           "description": null,
-            "columns": [
-              {
-                "id": "via",
-                "title": "Channel"
-              },
-              {
-                "id": "type",
-                "title": "Type"
-              },
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              },
-              {
-                "id": "sla_next_breach_at",
-                "title": "Next SLA breach"
-              }
-            ],
-            "fields": [
-              {
-                "id": "via",
-                "title": "Channel"
-              },
-              {
-                "id": "type",
-                "title": "Type"
-              },
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              },
-              {
-                "id": "sla_next_breach_at",
-                "title": "Next SLA breach"
-              }
-            ],
-            "custom_fields": []
-          },
+            "output": {
+              "columns": [
+                {
+                  "id": "via",
+                  "title": "Channel"
+                },
+                {
+                  "id": "type",
+                  "title": "Type"
+                },
+                {
+                  "id": "satisfaction_score",
+                  "title": "Satisfaction"
+                },
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "assignee",
+                  "title": "Assignee"
+                },
+                {
+                  "id": "priority",
+                  "title": "Priority"
+                },
+                {
+                  "id": "group",
+                  "title": "Group"
+                },
+                {
+                  "id": "sla_next_breach_at",
+                  "title": "Next SLA breach"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -305,68 +226,38 @@
           "active": true,
           "position": 3,
           "description": null,
-            "columns": [
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "fields": [
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "custom_fields": []
-          },
+            "output": {
+              "columns": [
+                {
+                  "id": "satisfaction_score",
+                  "title": "Satisfaction"
+                },
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "assignee",
+                  "title": "Assignee"
+                },
+                {
+                  "id": "priority",
+                  "title": "Priority"
+                },
+                {
+                  "id": "group",
+                  "title": "Group"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -407,81 +298,44 @@
           "active": true,
           "position": 4,
           "description": null,
+            "output": {
             "columns": [
-              {
-                "id": 360029231971,
-                "title": "Change Type",
-                "type": "tagger",
-                "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231971.json"
-              },
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "fields": [
-              {
-                "id": "satisfaction_score",
-                "title": "Satisfaction"
-              },
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "custom_fields": [
-              {
-                "id": 360029231971,
-                "title": "Change Type",
-                "type": "tagger",
-                "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231971.json"
-              }
-            ]
-          },
+                {
+                  "id": 360029231971,
+                  "title": "Change Type",
+                  "type": "tagger",
+                  "url": "https://z3nitsm.zendesk.com/api/v2/ticket_fields/360029231971.json"
+                },
+                {
+                  "id": "satisfaction_score",
+                  "title": "Satisfaction"
+                },
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "assignee",
+                  "title": "Assignee"
+                },
+                {
+                  "id": "priority",
+                  "title": "Priority"
+                },
+                {
+                  "id": "group",
+                  "title": "Group"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -522,6 +376,7 @@
               "title": "ID",
               "order": "desc"
             },
+            "output": {
             "columns": [
               {
                 "id": "subject",
@@ -543,31 +398,8 @@
                 "id": "priority",
                 "title": "Priority"
               }
-            ],
-            "fields": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "type",
-                "title": "Type"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              }
-            ],
-            "custom_fields": []
-          },
+            ]
+            },
           "conditions": {
             "all": [
               {
@@ -592,6 +424,7 @@
           "active": true,
           "position": 6,
           "description": null,
+            "output": {
             "columns": [
               {
                 "id": "subject",
@@ -613,31 +446,8 @@
                 "id": "group",
                 "title": "Group"
               }
-            ],
-            "fields": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "custom_fields": []
-          },
+            ]
+            },
           "conditions": {
             "all": [
               {
@@ -667,52 +477,30 @@
               "title": "ID",
               "order": "desc"
             },
-            "columns": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "updated",
-                "title": "Updated"
-              }
-            ],
-            "fields": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "updated",
-                "title": "Updated"
-              }
-            ],
-            "custom_fields": []
-          },
+            "output": {
+              "columns": [
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "priority",
+                  "title": "Priority"
+                },
+                {
+                  "id": "updated",
+                  "title": "Updated"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -737,52 +525,30 @@
               "title": "Assignee",
               "order": "desc"
             },
+            "output": {
             "columns": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "due_date",
-                "title": "Due date"
-              }
-            ],
-            "fields": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "due_date",
-                "title": "Due date"
-              }
-            ],
-            "custom_fields": []
-          },
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "assignee",
+                  "title": "Assignee"
+                },
+                {
+                  "id": "due_date",
+                  "title": "Due date"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -812,52 +578,30 @@
               "title": "Assignee",
               "order": "desc"
             },
-            "columns": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "due_date",
-                "title": "Due date"
-              }
-            ],
-            "fields": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "assignee",
-                "title": "Assignee"
-              },
-              {
-                "id": "due_date",
-                "title": "Due date"
-              }
-            ],
-            "custom_fields": []
-          },
+            "output": {
+              "columns": [
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "assignee",
+                  "title": "Assignee"
+                },
+                {
+                  "id": "due_date",
+                  "title": "Due date"
+                }
+              ]
+            },
           "conditions": {
             "all": [
               {
@@ -887,60 +631,34 @@
               "title": "Solved",
               "order": "desc"
             },
-            "columns": [
-              {
-                "id": "subject",
-                "title": "Subject"
+            "output": {
+              "columns": [
+                {
+                  "id": "subject",
+                  "title": "Subject"
+                },
+                {
+                  "id": "requester",
+                  "title": "Requester"
+                },
+                {
+                  "id": "created",
+                  "title": "Requested"
+                },
+                {
+                  "id": "solved",
+                  "title": "Solved"
+                },
+                {
+                  "id": "priority",
+                  "title": "Priority"
+                },
+                {
+                  "id": "group",
+                  "title": "Group"
+                }
+              ]
               },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "solved",
-                "title": "Solved"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "fields": [
-              {
-                "id": "subject",
-                "title": "Subject"
-              },
-              {
-                "id": "requester",
-                "title": "Requester"
-              },
-              {
-                "id": "created",
-                "title": "Requested"
-              },
-              {
-                "id": "solved",
-                "title": "Solved"
-              },
-              {
-                "id": "priority",
-                "title": "Priority"
-              },
-              {
-                "id": "group",
-                "title": "Group"
-              }
-            ],
-            "custom_fields": []
-          },
           "conditions": {
             "all": [
               {
