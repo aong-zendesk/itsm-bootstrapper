@@ -181,7 +181,7 @@
           "description": null,
           "output": {
             "columns": [
-              360029231971,
+              "{{ticket_field_changetype}}",
               "satisfaction_score",
               "subject",
               "requester",
