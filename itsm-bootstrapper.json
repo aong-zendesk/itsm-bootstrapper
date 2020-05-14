@@ -763,86 +763,6 @@
         ]
       },
       {
-        "type": "text",
-        "title": "Workaround ",
-        "raw_title": "Workaround ",
-        "description": "",
-        "raw_description": "",
-        "position": 9999,
-        "active": true,
-        "required": true,
-        "collapsed_for_agents": false,
-        "regexp_for_validation": null,
-        "title_in_portal": "Workaround ",
-        "raw_title_in_portal": "Workaround ",
-        "visible_in_portal": false,
-        "editable_in_portal": false,
-        "required_in_portal": false,
-        "tag": null,
-        "removable": true,
-        "agent_description": "Workaround "
-      },
-      {
-        "type": "text",
-        "title": "Root Cause",
-        "raw_title": "Root Cause",
-        "description": "",
-        "raw_description": "",
-        "position": 9999,
-        "active": true,
-        "required": true,
-        "collapsed_for_agents": false,
-        "regexp_for_validation": null,
-        "title_in_portal": "Root Cause",
-        "raw_title_in_portal": "Root Cause",
-        "visible_in_portal": false,
-        "editable_in_portal": false,
-        "required_in_portal": false,
-        "tag": null,
-        "removable": true,
-        "agent_description": "Root Cause"
-      },
-      {
-        "type": "checkbox",
-        "title": "Known Error?",
-        "raw_title": "Known Error?",
-        "description": "",
-        "raw_description": "",
-        "position": 9999,
-        "active": true,
-        "required": true,
-        "collapsed_for_agents": false,
-        "regexp_for_validation": null,
-        "title_in_portal": "Known Error?",
-        "raw_title_in_portal": "Known Error?",
-        "visible_in_portal": false,
-        "editable_in_portal": false,
-        "required_in_portal": false,
-        "tag": "",
-        "removable": true,
-        "agent_description": "Known Error?"
-      },
-      {
-        "type": "text",
-        "title": "Known Error Article",
-        "raw_title": "Known Error Article",
-        "description": "",
-        "raw_description": "",
-        "position": 9999,
-        "active": true,
-        "required": true,
-        "collapsed_for_agents": false,
-        "regexp_for_validation": null,
-        "title_in_portal": "Known Error Article",
-        "raw_title_in_portal": "Known Error Article",
-        "visible_in_portal": false,
-        "editable_in_portal": false,
-        "required_in_portal": false,
-        "tag": null,
-        "removable": true,
-        "agent_description": "Known Error Article"
-      },
-      {
         "type": "tagger",
         "title": "Service Catalog",
         "raw_title": "Service Catalog",
@@ -934,12 +854,55 @@
             "default": false
           }
         ]
+      },
+      {
+        "type": "tagger",
+        "title": "Stage",
+        "raw_title": "Stage",
+        "description": "",
+        "raw_description": "",
+        "position": 9999,
+        "active": true,
+        "required": true,
+        "collapsed_for_agents": false,
+        "regexp_for_validation": null,
+        "title_in_portal": "Stage",
+        "raw_title_in_portal": "Stage",
+        "visible_in_portal": false,
+        "editable_in_portal": false,
+        "required_in_portal": false,
+        "tag": null,
+        "removable": true,
+        "agent_description": "Change Stage",
+        "custom_field_options": [
+          {
+            "id": 900001082843,
+            "name": "Evaluate",
+            "raw_name": "Evaluate",
+            "value": "evaluate",
+            "default": true
+          },
+          {
+            "id": 900001082863,
+            "name": "Implement",
+            "raw_name": "Implement",
+            "value": "implement",
+            "default": false
+          },
+          {
+            "id": 900001082883,
+            "name": "Review ",
+            "raw_name": "Review ",
+            "value": "review_",
+            "default": false
+          }
+        ]
       }
     ],
     "add_ticket_forms": [
       {
-        "name": "IT Incident",
-        "raw_name": "IT Incident",
+        "name": "IT Requests",
+        "raw_name": "IT Requests",
         "display_name": "Need help?",
         "raw_display_name": "Need help?",
         "end_user_visible": true,
@@ -952,77 +915,14 @@
           360028769872,
           360028769892,
           360028769932,
-          360028769952,
-          360029115571,
-          360029115591,
-          360029115611,
-          360029115631,
-          360029115651,
-          360029115671,
-          360029162472,
-          360029231791,
-          360029232771,
-          360029231811
+          360028769952
         ],
         "active": true,
         "default": true,
         "in_all_brands": true,
         "restricted_brand_ids": [],
         "end_user_conditions": [],
-        "agent_conditions": [
-          {
-            "parent_field_id": 360028769932,
-            "value": "problem",
-            "child_fields": [
-              {
-                "id": 360029231791,
-                "is_required": true,
-                "required_on_statuses": {
-                  "type": "SOME_STATUSES",
-                  "statuses": [
-                    "solved"
-                  ]
-                }
-              },
-              {
-                "id": 360029162472,
-                "is_required": true,
-                "required_on_statuses": {
-                  "type": "SOME_STATUSES",
-                  "statuses": [
-                    "solved"
-                  ]
-                }
-              },
-              {
-                "id": 360029232771,
-                "is_required": true,
-                "required_on_statuses": {
-                  "type": "SOME_STATUSES",
-                  "statuses": [
-                    "solved"
-                  ]
-                }
-              }
-            ]
-          },
-          {
-            "parent_field_id": 360029232771,
-            "value": true,
-            "child_fields": [
-              {
-                "id": 360029231811,
-                "is_required": true,
-                "required_on_statuses": {
-                  "type": "SOME_STATUSES",
-                  "statuses": [
-                    "solved"
-                  ]
-                }
-              }
-            ]
-          }
-        ]
+        "agent_conditions": []
       },
       {
         "name": "Service Catalog",
@@ -1038,15 +938,7 @@
           360029159452,
           360028769872,
           360028769892,
-          360028769952,
-          360029051712,
-          360029051732,
-          360029115571,
-          360029115591,
-          360029115611,
-          360029115631,
-          360029115651,
-          360029115671
+          360028769952
         ],
         "active": true,
         "default": false,
@@ -1070,14 +962,7 @@
           360028769872,
           360028769892,
           360028769952,
-          360029051712,
-          360029051732,
-          360029115571,
-          360029115591,
-          360029115611,
-          360029115631,
-          360029115651,
-          360029115671
+          900002588743
         ],
         "active": true,
         "default": false,
@@ -1103,7 +988,6 @@
           360028769952
         ],
         "active": false,
-        "default": false,
         "in_all_brands": true,
         "restricted_brand_ids": [],
         "end_user_conditions": [],
@@ -1113,7 +997,210 @@
   },
   "macros": {
     "disable_default_macros": true,
-    "add_macros": []
+    "add_macros": [
+      {
+        "title": "Close and redirect to topics",
+        "active": true,
+        "position": 1,
+        "description": null,
+        "actions": [
+          {
+            "field": "status",
+            "value": "solved"
+          },
+          {
+            "field": "priority",
+            "value": "normal"
+          },
+          {
+            "field": "type",
+            "value": "incident"
+          },
+          {
+            "field": "assignee_id",
+            "value": "current_user"
+          },
+          {
+            "field": "group_id",
+            "value": "current_groups"
+          },
+          {
+            "field": "comment_value",
+            "value": "Thanks for your request. This issue you reported is a known issue. For more information, please visit our forums. "
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Downgrade and inform",
+        "active": true,
+        "position": 2,
+        "description": null,
+        "actions": [
+          {
+            "field": "priority",
+            "value": "low"
+          },
+          {
+            "field": "comment_value",
+            "value": "We're currently experiencing unusually high traffic. We'll get back to you as soon as possible."
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Requester not responding",
+        "active": true,
+        "position": 3,
+        "description": null,
+        "actions": [
+          {
+            "field": "status",
+            "value": "pending"
+          },
+          {
+            "field": "comment_value",
+            "value": "Hello {{ticket.requester.name}}. Our agent {{current_user.name}} has tried to contact you about this request but we haven't heard back from you yet. Please let us know if we can be of further assistance. Thanks. "
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Take it!",
+        "active": true,
+        "position": 4,
+        "description": null,
+        "actions": [
+          {
+            "field": "group_id",
+            "value": "current_groups"
+          },
+          {
+            "field": "assignee_id",
+            "value": "current_user"
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Incident:: Upgrade to Problem",
+        "active": true,
+        "position": 5,
+        "description": null,
+        "actions": [
+          {
+            "field": "type",
+            "value": "problem"
+          },
+          {
+            "field": "group_id",
+            "value": "900000806866"
+          },
+          {
+            "field": "comment_mode_is_public",
+            "value": "false"
+          },
+          {
+            "field": "comment_value_html",
+            "value": "<p>Changing this into a problem ticket.</p><p>Please tag the related incidents to this problem ticket.</p><p>Handing this over to Tier 2 support for problem analysis.</p>"
+          },
+          {
+            "field": "comment_value",
+            "value": "Changing this into a problem ticket.\nPlease tag the related incidents to this problem ticket.\nHanding this over to Tier 2 support for problem analysis.\n"
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Problem:: Insert Workaround Article Link",
+        "active": true,
+        "position": 6,
+        "description": null,
+        "actions": [
+          {
+            "field": "comment_value_html",
+            "value": "<p>Here is the workaround article Link: <br></p>"
+          },
+          {
+            "field": "comment_value",
+            "value": "Here is the workaround article Link: \n\n"
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Problem:: Insert Known Error Article Link",
+        "active": true,
+        "position": 7,
+        "description": null,
+        "actions": [
+          {
+            "field": "comment_value_html",
+            "value": "<p>Here is the known error article Link: <br></p>"
+          },
+          {
+            "field": "comment_value",
+            "value": "Here is the known error article Link: "
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Problem:: Insert Root Cause Article Link ",
+        "active": true,
+        "position": 8,
+        "description": null,
+        "actions": [
+          {
+            "field": "comment_value_html",
+            "value": "<p>Here is the root cause article Link: <br></p>"
+          },
+          {
+            "field": "comment_value",
+            "value": "Here is the root cause article Link: \n\n"
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Change:: Implementation Complete",
+        "active": true,
+        "position": 9,
+        "description": null,
+        "actions": [
+          {
+            "field": "custom_fields_900002588743",
+            "value": "review_"
+          },
+          {
+            "field": "comment_value_html",
+            "value": "<p>Implementation completed.</p><p>Please review the implementation.</p>"
+          },
+          {
+            "field": "follower",
+            "value": "394197207112"
+          }
+        ],
+        "restriction": null
+      },
+      {
+        "title": "Emergency Change:: Adding ECAB as followers",
+        "active": true,
+        "position": 10,
+        "description": "Adding ECAB as followers",
+        "actions": [
+          {
+            "field": "follower",
+            "value": "394197207112"
+          },
+          {
+            "field": "follower",
+            "value": "900194984006"
+          }
+        ],
+        "restriction": null
+      }
+    ]
   },
   "talk": {
     "add_number": {
@@ -1158,18 +1245,6 @@
     ],
     "add_sections": [
       {
-        "category_id": 360002675732,
-        "position": 0,
-        "sorting": "manual",
-        "name": "Known Error ",
-        "description": "",
-        "locale": "en-us",
-        "source_locale": "en-us",
-        "outdated": false,
-        "parent_section_id": null,
-        "theme_template": "section_page"
-      },
-      {
         "category_id": 360002698111,
         "position": 0,
         "sorting": "manual",
@@ -1207,9 +1282,45 @@
       },
       {
         "category_id": 360002675732,
-        "position": 0,
+        "position": 1,
         "sorting": "manual",
         "name": "Announcements",
+        "description": "",
+        "locale": "en-us",
+        "source_locale": "en-us",
+        "outdated": false,
+        "parent_section_id": null,
+        "theme_template": "section_page"
+      },
+      {
+        "category_id": 360002675732,
+        "position": 2,
+        "sorting": "manual",
+        "name": "Known Errors",
+        "description": "",
+        "locale": "en-us",
+        "source_locale": "en-us",
+        "outdated": false,
+        "parent_section_id": null,
+        "theme_template": "section_page"
+      },
+      {
+        "category_id": 360002675732,
+        "position": 3,
+        "sorting": "manual",
+        "name": "Workarounds",
+        "description": "",
+        "locale": "en-us",
+        "source_locale": "en-us",
+        "outdated": false,
+        "parent_section_id": null,
+        "theme_template": "section_page"
+      },
+      {
+        "category_id": 360002675732,
+        "position": 4,
+        "sorting": "manual",
+        "name": "Root Causes",
         "description": "",
         "locale": "en-us",
         "source_locale": "en-us",
@@ -1226,6 +1337,46 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
+        "section_id": 900000175006,
+        "name": "Root Cause #1",
+        "title": "Root Cause #1",
+        "source_locale": "en-us",
+        "locale": "en-us",
+        "outdated": false,
+        "outdated_locales": [],
+        "edited_at": "2020-05-14T03:49:24Z",
+        "user_segment_id": null,
+        "permission_group_id": 3095352,
+        "label_names": [],
+        "body": "<p>ITIL doesn’t define “root cause” in any useful way. The official ITIL definition is “the underlying or original cause of an Incident or Problem” (ITIL v3 glossary). CMMI is more helpful: “A root cause is a source of a defect such that if it is removed, the defect is decreased or removed.” (CMMI v1.1, Causal Analysis and Resolution process area). There are two effective parts to a useful definition: a root cause is that which we can alter to effect a permanent fix to a problem. So the important points are (i) addressing the root cause fixes the problem and (ii) it is something we can directly affect. Examples: 1. Database fails because it is full. The root cause is that we failed to monitor its usage effectively to take preventative action in time. So the action we take to fix the Incident (increase the database size) is different to the action we take to fix the Problem (start monitoring capacity usage effectively). 2. Database fails because a virus infects the database software. Here we are not interested in the coding error that allowed the virus to strike, we are only interested in addressing our technology choice or patching regime. In other words, the root cause for the vendor (software bug) is different to the root cause for us (technology management). Wikipedia is very helpful on this and has good articles on root cause and root cause analysis. The temptation is to get too philosophical about causation when a useful definition is circumscribed by your own sphere of influence.</p>"
+      },
+      {
+        "comments_disabled": false,
+        "draft": false,
+        "promoted": false,
+        "position": 0,
+        "vote_sum": 0,
+        "vote_count": 0,
+        "section_id": 900000169723,
+        "name": "Workarounds #1",
+        "title": "Workarounds #1",
+        "source_locale": "en-us",
+        "locale": "en-us",
+        "outdated": false,
+        "outdated_locales": [],
+        "edited_at": "2020-05-14T03:48:04Z",
+        "user_segment_id": null,
+        "permission_group_id": 3095352,
+        "label_names": [],
+        "body": "<p><span>Workarounds are temporary solutions aimed at reducing or eliminating the impact of Known Errors (and thus Problems) for which a full resolution is not yet available.</span></p>"
+      },
+      {
+        "comments_disabled": false,
+        "draft": false,
+        "promoted": false,
+        "position": 0,
+        "vote_sum": 0,
+        "vote_count": 0,
         "section_id": 360007988372,
         "name": "Slack ",
         "title": "Slack ",
@@ -1233,6 +1384,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-04-21T02:27:36Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1252,6 +1404,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-04-21T02:25:02Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1271,7 +1424,8 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
-        "user_segment_id": 360001489972,
+        "edited_at": "2020-03-03T06:58:56Z",
+        "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [
           "known_error"
@@ -1292,6 +1446,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-03T02:55:27Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1311,6 +1466,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-03T02:55:11Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1330,6 +1486,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-02T06:44:27Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1349,6 +1506,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-02T06:44:27Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1368,6 +1526,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-02T06:44:27Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1387,6 +1546,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-02T06:44:27Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
@@ -1406,6 +1566,7 @@
         "locale": "en-us",
         "outdated": false,
         "outdated_locales": [],
+        "edited_at": "2020-03-02T06:44:26Z",
         "user_segment_id": null,
         "permission_group_id": 3095352,
         "label_names": [],
