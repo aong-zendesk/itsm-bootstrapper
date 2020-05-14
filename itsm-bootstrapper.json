@@ -72,7 +72,7 @@
           "output": {
             "columns": [
               "satisfaction_score",
-              {{ticket_field_servicecatalog}},
+              "{{ticket_field_servicecatalog}}",
               "requester",
               "created",
               "assignee",
@@ -85,7 +85,7 @@
             {
               "field": "ticket_form_id",
               "operator": "is",
-              "value": {{ticket_form_servicecatalog}}
+              "value": "{{ticket_form_servicecatalog}}"
             },
             {
               "field": "status",
@@ -121,7 +121,7 @@
             {
               "field": "ticket_form_id",
               "operator": "is",
-              "value": {{ticket_form_itrequests}}
+              "value": "{{ticket_form_itrequests}}"
             },
             {
               "field": "status",
@@ -129,7 +129,7 @@
               "value": "solved"
             },
             {
-              "field": {{ticket_field_requesttype}},
+              "field": "{{ticket_field_requesttype}}",
               "operator": "is_not",
               "value": "problem"
             }
@@ -158,7 +158,7 @@
             {
               "field": "ticket_form_id",
               "operator": "is",
-              "value": {{ticket_form_itrequests}}
+              "value": "{{ticket_form_itrequests}}"
             },
             {
               "field": "status",
@@ -166,7 +166,7 @@
               "value": "solved"
             },
             {
-              "field": {{ticket_field_requesttype}},
+              "field": "{{ticket_field_requesttype}}",
               "operator": "is",
               "value": "problem"
             }
@@ -196,7 +196,7 @@
             {
               "field": "ticket_form_id",
               "operator": "is",
-              "value": {{ticket_form_changerequests}}
+              "value": "{{ticket_form_changerequests}}"
             },
             {
               "field": "status",
@@ -403,25 +403,25 @@
         "name": "John Tan - ECAB",
         "email": "johntan@bootstrapper.com",
         "reference_id":"user_john_ecab",
-        {{user_field_employee_status}}:"full_time_employee"
+        "{{user_field_employee_status}}":"full_time_employee"
       },
       {
         "name": "Peter Chan - ECAB,
         "email": "PeterChan@bootstrapper.com",
         "reference_id":"user_peter_ECAB",
-        {{user_field_employee_status}}:"full_time_employee"
+        "{{user_field_employee_status}}":"full_time_employee"
       },
       {
         "name": "Jason Lee - Change Review",
         "email": "JasonLee@bootstrapper.com",
         "reference_id":"user_jason_change_review",
-        {{user_field_employee_status}}:"full_time_employee"
+        "{{user_field_employee_status}}":"full_time_employee"
       },
       {
         "name": "Chris Lim - C Staff",
         "email": "ChrisLim@bootstrapper.com",
         "reference_id":"user_chris_cstaff",
-        {{user_field_employee_status}}:"c_staff_employee"
+        "{{user_field_employee_status}}":"c_staff_employee"
       }
     ],
     "add_groups": [
