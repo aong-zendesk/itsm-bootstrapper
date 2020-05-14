@@ -52,8 +52,8 @@ Note you will need to edit the approvals app to add the appropriate CI and the k
 5. Assuming the implementation has completed, the agent will update the stage of the change request using macros and automatically add the change review team as followers to the change ticket. Explain the use of the ECAB macros to add the ECAB members to this change ticket if its an emergency change for visibility. Mention that we could use business rules such as triggers or automations to improve any other manual processes.
 
 # TO DO
-[] Incorporate HR Flow
-[] Help center
-[] ITSM Explore Dashboard
+- Incorporate HR Flow
+- Help Center Updates
+- ITSM Explore Dashboard
 
 
