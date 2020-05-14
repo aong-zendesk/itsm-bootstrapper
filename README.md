@@ -12,7 +12,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 3. Click "Edit Code"
 
-4. Click on homepage_hbs and edit the form ID on line 40, 43 and 46. Need Help = 
+4. Click on homepage_hbs and edit the form ID on line 40, 43 and 46. 
 
 5. Please do the same for line 49 to link the button directly to the FAQ and Announcement KB Category.
 
