@@ -22,7 +22,7 @@ Note you will need to edit the approvals app to add the appropriate CI and the k
 
 7. Refer to the approvals side bar app and click approve. You could explain that this is built using Sunshine which is available on the enterprise plan or otherwise they could also use an approval app that is available on the marketplace.
 
-8. Once approved, there will be a fullfillment task created that will be assigned to the IT team to procure/process the CI for the end user. 
+8. Once approved, there will be a fullfillment task created that will be assigned to the IT team to procure/process the CI for the end user. Mentioned that there will be different SLAs tracking different type of tickets within Zendesk.
 
 9. Once the fullfillment task has completed. The CI would be automatically created and attached to the user's profile. This would be helpful as this can provide more information on Incident management. 
 
@@ -43,13 +43,17 @@ Note you will need to edit the approvals app to add the appropriate CI and the k
 # Change Management Flow
 1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explains that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
 
-2. Have the agent create a normal change ticket, and talk about the approval app. 
+2. Have the agent create a normal change ticket, and approve via the approval app. 
 
-3. Note 
+3. Optionally: You could impersonate as another user to approve the change request.
+
+4. Note that the additional change field to track the change stage. Once approved, there will be an fullfillment task created to implement the change. 
+
+5. Assuming the implementation has completed, the agent will update the stage of the change request using macros and automatically add the change review team as followers to the change ticket. Explain the use of the ECAB macros to add the ECAB members to this change ticket if its an emergency change for visibility. Mention that we could use business rules such as triggers or automations to improve any other manual processes.
 
 # TO DO
 [] Incorporate HR Flow
 [] Help center
-[] ??
+[] ITSM Explore Dashboard
 
 
