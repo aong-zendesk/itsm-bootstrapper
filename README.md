@@ -1,70 +1,55 @@
-# **TO DO**
+# **ITSM APAC DEMO 30mins**
+This Bootstrapper allows you to run the following demo scenario:
+- Request Management
+- Incident Management
+- Problem Management
+- Change Management
 
-- [ ]  MACROS
-- [ ] APPS
-- [ ] TRIGGERS
-- [ ] SAMPLE TICKETS
-- [ ] SAMPLE VIEWS
-- [ ] SERVICE CATALOG
-- [ ] HARDWARE
-- [ ] SOFTWARE
+#Request Management Flow 
+1. Impersonate as an end user and go to the help center to request for a hardware or software.
+You may add more hardware or software that you feel that are relevant to the prospect. 
+Note you will need to edit the approvals app to add the appropriate CI and the knowledge article with an image.
 
-# v1
+2. Click on the top link to access the Service Catalog or click on the button on the front page "Requesting Something"
 
-Service Catalog
-- Software
-- Hardware
-- Network Access
-- Shared Drive
-- Password Reset (?)
+3. View the knowledge article and click on the button "Submit Request" at the bottom of the article. Fill in the form. For example: Subject: Requesting for a phone. Description: Current phone is damaged.
 
-Request Management
-- Hardware
-- Software
-- Incident
-- Change
+4. Revert back to the agent's interface and walkthough on the landing page and the views.
 
-Knowledge Base
-- IT Knowledge Base
-- Software
-- Hardware
+5. Click on the ticket that is generated, and walkthrough on the form field and the apps side bar.
+
+6. Optionally: Talk about the apps that are available on the marketplace that could provide more IT related functionality. Such as remote desktop or asset management.
+
+7. Refer to the approvals side bar app and click approve. You could explain that this is built using Sunshine which is available on the enterprise plan or otherwise they could also use an approval app that is available on the marketplace.
+
+8. Once approved, there will be a fullfillment task created that will be assigned to the IT team to procure/process the CI for the end user. 
+
+9. Once the fullfillment task has completed. The CI would be automatically created and attached to the user's profile. This would be helpful as this can provide more information on Incident management. 
+
+#Incident Management Flow
+1. Use the previous CI that was created from incident management as the scenario for the incident demo flow. Have the end user submit a case through email/phone/web form depending on your prospect's requirement.
+
+2. Once the case has submitted, revert back to the agent's interface to work on the ticket.
+
+3. Mentioned that since we have a knowledge of the current user's CI, the agent would be able to work more efficiently on the ticket.
+
+4. Explain the use of macro and mentioned that to the prospects that the agent have found out they have a surge of cases that seem related. Create another ticket and use the macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
+
+#Problem Management Flow
+1. In the problem ticket view, explain the use of the Knowledge capture app.
+
+2. Using the macros and the Knowledge Capture App, the agent could easily link Workaround, Known errors and Root cause related articles to the ticket.
+
+#Change Management Flow
+1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explains that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
+
+2. Have the agent create a normal change ticket, and talk about the approval app. 
+
+3. Note 
+
+#TO DO
+[] Incorporate HR Flow
+[] Help center
+[] ??
 
 
-
-Incident/Problem/Change Management 
-- Create Incident 
-- Auto Assignment
-- Macros
-- SLA
-- Create a Problem
-  - Convert to Problem Macro
-  - Assign to T2
-- Problem Form
-  - Root Cause
-  - Workaround
-  -Known Error
-- SLA
-- Link Problem ticket to Incident Tickets
-- Create Change
-  - Minor
-  - Normal
-  - Approval
-  - Create follow up Tasks
-  - Emergency
-  - CAB Approval
-  - Create follow up Tasks
-
-# v2
-
-Asset Management/CMDB
-- Install Third-Party App
-- Install Sunshine
-
-Incident Event management
-- Pager Duty
-
-DevOps
-- JIRA
-
-# DevWork Progress
-3/3/2020 Incident, Problem, Request, Normal Change
