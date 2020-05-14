@@ -5,7 +5,7 @@ This Bootstrapper allows you to run the following demo scenario:
 - Problem Management
 - Change Management
 
-#Request Management Flow 
+# Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
 You may add more hardware or software that you feel that are relevant to the prospect. 
 Note you will need to edit the approvals app to add the appropriate CI and the knowledge article with an image.
@@ -26,7 +26,7 @@ Note you will need to edit the approvals app to add the appropriate CI and the k
 
 9. Once the fullfillment task has completed. The CI would be automatically created and attached to the user's profile. This would be helpful as this can provide more information on Incident management. 
 
-#Incident Management Flow
+# Incident Management Flow
 1. Use the previous CI that was created from incident management as the scenario for the incident demo flow. Have the end user submit a case through email/phone/web form depending on your prospect's requirement.
 
 2. Once the case has submitted, revert back to the agent's interface to work on the ticket.
@@ -35,19 +35,19 @@ Note you will need to edit the approvals app to add the appropriate CI and the k
 
 4. Explain the use of macro and mentioned that to the prospects that the agent have found out they have a surge of cases that seem related. Create another ticket and use the macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
 
-#Problem Management Flow
+# Problem Management Flow
 1. In the problem ticket view, explain the use of the Knowledge capture app.
 
 2. Using the macros and the Knowledge Capture App, the agent could easily link Workaround, Known errors and Root cause related articles to the ticket.
 
-#Change Management Flow
+# Change Management Flow
 1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explains that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
 
 2. Have the agent create a normal change ticket, and talk about the approval app. 
 
 3. Note 
 
-#TO DO
+# TO DO
 [] Incorporate HR Flow
 [] Help center
 [] ??
