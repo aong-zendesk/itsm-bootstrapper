@@ -5,6 +5,17 @@ This Bootstrapper allows you to run the following demo scenarios:
 - Problem Management
 - Change Management
 
+# **Pre-Demo Setup Steps PLEASE READ**
+1. Please note the form IDs for IT Incidents, IT Request and Change Request Form. You can do so by going to the help center, log in as a end user. Click on submit a request and select each of the forms. For eg. ticket_form_id=360000731751
+
+2. Go to the guide admin page and view the Chain Frost Theme.
+
+3. Click "Edit Code"
+
+4. Click on homepage_hbs and edit the form ID on line 40, 43 and 46. Need Help = 
+
+5. Please do the same for line 49 to link the button directly to the FAQ and Announcement KB Category.
+
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
 You may add more hardware or software that you feel that are relevant to the prospect. 
