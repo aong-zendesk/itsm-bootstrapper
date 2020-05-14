@@ -93,8 +93,7 @@
               "value": "solved"
             }
           ],
-          "any": [
-          ],
+          "any": [],
           "restriction": null,
           "raw_title": "📞 Requests "
         },
@@ -379,7 +378,7 @@
         "title": "Employee Status",
         "description": "Status of Employee",
         "position": "2",
-        "reference_id":"user_field_employee_status",
+        "reference_id": "user_field_employee_status",
         "active": true,
         "key": "employee_status",
         "custom_field_options": [
@@ -400,45 +399,45 @@
     ],
     "add_users": [
       {
-        "name": "John Tan - ECAB",
+        "name": "John Tan ECAB",
         "email": "johntan@bootstrapper.com",
-        "reference_id":"user_john_ecab",
-        "{{user_field_employee_status}}":"full_time_employee"
+        "reference_id": "user_john_ecab",
+        "{{user_field_employee_status}}": "full_time_employee"
       },
       {
-        "name": "Peter Chan - ECAB,
+        "name": "Peter Chan ECAB",
         "email": "PeterChan@bootstrapper.com",
-        "reference_id":"user_peter_ECAB",
-        "{{user_field_employee_status}}":"full_time_employee"
+        "reference_id": "user_peter_ECAB",
+        "{{user_field_employee_status}}": "full_time_employee"
       },
       {
-        "name": "Jason Lee - Change Review",
+        "name": "Jason Lee Change Review",
         "email": "JasonLee@bootstrapper.com",
-        "reference_id":"user_jason_change_review",
-        "{{user_field_employee_status}}":"full_time_employee"
+        "reference_id": "user_jason_change_review",
+        "{{user_field_employee_status}}": "full_time_employee"
       },
       {
-        "name": "Chris Lim - C Staff",
+        "name": "Chris Lim C Staff",
         "email": "ChrisLim@bootstrapper.com",
-        "reference_id":"user_chris_cstaff",
-        "{{user_field_employee_status}}":"c_staff_employee"
+        "reference_id": "user_chris_cstaff",
+        "{{user_field_employee_status}}": "c_staff_employee"
       }
     ],
     "add_groups": [
       {
         "name": "Service Desk",
         "description": "Service Incidents and Service Requests",
-        "reference_id":"group_servicedesk"
+        "reference_id": "group_servicedesk"
       },
       {
         "name": "Tier 2 Support",
         "description": "Problem or Change Management Tasks",
-        "reference_id":"group_t2support"
+        "reference_id": "group_t2support"
       },
       {
         "name": "Tier 3 Support",
         "description": "Third Party Vendor or DevOps Task",
-        "reference_id":"group_t3support"
+        "reference_id": "group_t3support"
       }
     ]
   },
@@ -833,46 +832,46 @@
         ]
       },
       {
-      "type": "tickettype",
-      "title": "Type",
-      "raw_title": "Type",
-      "description": "Request type",
-      "raw_description": "Request type",
-      "reference_id":"ticket_field_requesttype",
-      "position": 4,
-      "active": true,
-      "required": false,
-      "collapsed_for_agents": false,
-      "regexp_for_validation": null,
-      "title_in_portal": "Type",
-      "raw_title_in_portal": "Type",
-      "visible_in_portal": false,
-      "editable_in_portal": false,
-      "required_in_portal": false,
-      "tag": null,
-      "created_at": "2020-02-21T02:19:46Z",
-      "updated_at": "2020-03-03T05:49:18Z",
-      "removable": true,
-      "agent_description": "",
-      "system_field_options": [
-        {
-          "name": "Question",
-          "value": "question"
-        },
-        {
-          "name": "Incident",
-          "value": "incident"
-        },
-        {
-          "name": "Problem",
-          "value": "problem"
-        },
-        {
-          "name": "Task",
-          "value": "task"
-        }
-      ]
-    }
+        "type": "tickettype",
+        "title": "Type",
+        "raw_title": "Type",
+        "description": "Request type",
+        "raw_description": "Request type",
+        "reference_id": "ticket_field_requesttype",
+        "position": 4,
+        "active": true,
+        "required": false,
+        "collapsed_for_agents": false,
+        "regexp_for_validation": null,
+        "title_in_portal": "Type",
+        "raw_title_in_portal": "Type",
+        "visible_in_portal": false,
+        "editable_in_portal": false,
+        "required_in_portal": false,
+        "tag": null,
+        "created_at": "2020-02-21T02:19:46Z",
+        "updated_at": "2020-03-03T05:49:18Z",
+        "removable": true,
+        "agent_description": "",
+        "system_field_options": [
+          {
+            "name": "Question",
+            "value": "question"
+          },
+          {
+            "name": "Incident",
+            "value": "incident"
+          },
+          {
+            "name": "Problem",
+            "value": "problem"
+          },
+          {
+            "name": "Task",
+            "value": "task"
+          }
+        ]
+      }
     ],
     "add_ticket_forms": [
       {
@@ -882,10 +881,10 @@
         "raw_display_name": "Need help?",
         "end_user_visible": true,
         "position": 0,
-        "reference_id": "ticket_form_itrequests"
+        "reference_id": "ticket_form_itrequests",
         "ticket_field_ids": [
-          {{ticket_field_category}},
-          {{ticket_field_requesttype}}
+          "{{ticket_field_category}}",
+          "{{ticket_field_requesttype}}"
         ],
         "active": true,
         "default": true,
@@ -901,9 +900,9 @@
         "raw_display_name": "Request something?",
         "end_user_visible": true,
         "position": 1,
-        "reference_id": "ticket_form_servicecatalog"
+        "reference_id": "ticket_form_servicecatalog",
         "ticket_field_ids": [
-          {{ticket_field_servicecatalog}},
+          "{{ticket_field_servicecatalog}}"
         ],
         "active": true,
         "default": false,
@@ -919,10 +918,10 @@
         "raw_display_name": "Requesting a change?",
         "end_user_visible": true,
         "position": 2,
-        "reference_id": "ticket_form_changerequests"
+        "reference_id": "ticket_form_changerequests",
         "ticket_field_ids": [
-          {{ticket_field_changetype}},
-          {{ticket_field_changestage}}
+          "{{ticket_field_changetype}}",
+          "{{ticket_field_changestage}}"
         ],
         "active": true,
         "default": false,
@@ -939,7 +938,7 @@
         "end_user_visible": false,
         "position": 3,
         "ticket_field_ids": [
-        {{ticket_field_requesttype}}
+          "{{ticket_field_requesttype}}"
         ],
         "active": false,
         "in_all_brands": true,
@@ -1048,7 +1047,8 @@
           },
           {
             "field": "group_id",
-            "value": {{group_t2support}}          },
+            "value": "{{group_t2support}}"
+          },
           {
             "field": "comment_mode_is_public",
             "value": "false"
@@ -1122,7 +1122,7 @@
         "description": null,
         "actions": [
           {
-            "field": {{ticket_field_changestage}},
+            "field": "{{ticket_field_changestage}}",
             "value": "review_"
           },
           {
@@ -1131,7 +1131,7 @@
           },
           {
             "field": "follower",
-            "value": {{user_jason_change_review}}
+            "value": "{{user_jason_change_review}}"
           }
         ],
         "restriction": null
@@ -1144,7 +1144,7 @@
         "actions": [
           {
             "field": "follower",
-            "value": {{user_peter_ECAB"}}
+            "value": "{{user_peter_ECAB}}"
           },
           {
             "field": "follower",
@@ -1182,7 +1182,7 @@
       {
         "position": 0,
         "name": "Service Catalog",
-        "reference_id":"kb_category_servicecatalog",
+        "reference_id": "kb_category_servicecatalog",
         "description": "View the available services that can be requested",
         "locale": "en-us",
         "source_locale": "en-us",
@@ -1192,7 +1192,7 @@
         "position": 0,
         "name": "FAQ & Announcements",
         "description": "Your IT Knowledge Base",
-        "reference_id":"kb_category_itkb,
+        "reference_id": "kb_category_itkb",
         "locale": "en-us",
         "source_locale": "en-us",
         "outdated": false
@@ -1200,12 +1200,12 @@
     ],
     "add_sections": [
       {
-        "category_id": {{kb_category_servicecatalog}},
+        "category_id": "{{kb_category_servicecatalog}}",
         "position": 0,
         "sorting": "manual",
         "name": "Hardware",
         "description": "Request hardware",
-        "reference_id":"kb_section_requesthardware",
+        "reference_id": "kb_section_requesthardware",
         "locale": "en-us",
         "source_locale": "en-us",
         "outdated": false,
@@ -1213,12 +1213,12 @@
         "theme_template": "section_page"
       },
       {
-        "category_id": {{kb_category_servicecatalog}},
+        "category_id": "{{kb_category_servicecatalog}}",
         "position": 0,
         "sorting": "manual",
         "name": "Software",
         "description": "Request software",
-        "reference_id":"kb_section_requestsoftware",
+        "reference_id": "kb_section_requestsoftware",
         "locale": "en-us",
         "source_locale": "en-us",
         "outdated": false,
@@ -1226,20 +1226,20 @@
         "theme_template": "section_page"
       },
       {
-        "category_id": {{kb_category_itkb}},
+        "category_id": "{{kb_category_itkb}}",
         "position": 0,
         "sorting": "manual",
         "name": "FAQ",
         "description": "",
         "locale": "en-us",
         "source_locale": "en-us",
-        "reference_id":"kb_section_FAQ",
+        "reference_id": "kb_section_FAQ",
         "outdated": false,
         "parent_section_id": null,
         "theme_template": "section_page"
       },
       {
-        "category_id": {{kb_category_itkb}},
+        "category_id": "{{kb_category_itkb}}",
         "position": 1,
         "sorting": "manual",
         "name": "Announcements",
@@ -1247,16 +1247,16 @@
         "locale": "en-us",
         "source_locale": "en-us",
         "outdated": false,
-        "reference_id":"kb_section_announcements",
+        "reference_id": "kb_section_announcements",
         "parent_section_id": null,
         "theme_template": "section_page"
       },
       {
-        "category_id": {{kb_category_itkb}},
+        "category_id": "{{kb_category_itkb}}",
         "position": 2,
         "sorting": "manual",
         "name": "Known Errors",
-        "reference_id":"kb_section_knownerrors",
+        "reference_id": "kb_section_knownerrors",
         "description": "",
         "locale": "en-us",
         "source_locale": "en-us",
@@ -1265,11 +1265,11 @@
         "theme_template": "section_page"
       },
       {
-        "category_id": {{kb_category_itkb}},
+        "category_id": "{{kb_category_itkb}}",
         "position": 3,
         "sorting": "manual",
         "name": "Workarounds",
-        "reference_id":"kb_section_workarounds",
+        "reference_id": "kb_section_workarounds",
         "description": "",
         "locale": "en-us",
         "source_locale": "en-us",
@@ -1278,10 +1278,10 @@
         "theme_template": "section_page"
       },
       {
-        "category_id": {{kb_category_itkb}},
+        "category_id": "{{kb_category_itkb}}",
         "position": 4,
         "sorting": "manual",
-        "reference_id":"kb_section_rootcauses",
+        "reference_id": "kb_section_rootcauses",
         "name": "Root Causes",
         "description": "",
         "locale": "en-us",
@@ -1299,7 +1299,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_rootcauses}},
+        "section_id": "{{kb_section_rootcauses}}",
         "name": "Root Cause #1",
         "title": "Root Cause #1",
         "source_locale": "en-us",
@@ -1318,7 +1318,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_workarounds}},
+        "section_id": "{{kb_section_workarounds}}",
         "name": "Workarounds #1",
         "title": "Workarounds #1",
         "source_locale": "en-us",
@@ -1337,7 +1337,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_requestsoftware}},
+        "section_id": "{{kb_section_requestsoftware}}",
         "name": "Slack ",
         "title": "Slack ",
         "source_locale": "en-us",
@@ -1356,7 +1356,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_requesthardware}},
+        "section_id": "{{kb_section_requesthardware}}",
         "name": "Huawei P30 Android Phone (8 GB RAM + 512GB ROM)",
         "title": "Huawei P30 Android Phone (8 GB RAM + 512GB ROM)",
         "source_locale": "en-us",
@@ -1375,7 +1375,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_knownerrors}},
+        "section_id": "{{kb_section_knownerrors}}",
         "name": "Known Error #1",
         "title": "Known Error #1",
         "source_locale": "en-us",
@@ -1396,7 +1396,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_requestsoftware}},
+        "section_id": "{{kb_section_requestsoftware}}",
         "name": "Microsoft Office 365",
         "title": "Microsoft Office 365",
         "source_locale": "en-us",
@@ -1415,7 +1415,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_requesthardware}},
+        "section_id": "{{kb_section_requesthardware}}",
         "name": "Macbook Pro 13-inch model",
         "title": "Macbook Pro 13-inch model",
         "source_locale": "en-us",
@@ -1434,7 +1434,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_FAQ}},
+        "section_id": "{{kb_section_FAQ}}",
         "name": "How can agents leverage knowledge to help customers?",
         "title": "How can agents leverage knowledge to help customers?",
         "source_locale": "en-us",
@@ -1453,7 +1453,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_FAQ}},
+        "section_id": "{{kb_section_FAQ}}",
         "name": "How do I publish my content in other languages?",
         "title": "How do I publish my content in other languages?",
         "source_locale": "en-us",
@@ -1472,7 +1472,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_FAQ}},
+        "section_id": "{{kb_section_FAQ}}",
         "name": "How do I customize my Help Center?",
         "title": "How do I customize my Help Center?",
         "source_locale": "en-us",
@@ -1491,7 +1491,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_FAQ}},
+        "section_id": "{{kb_section_FAQ}}",
         "name": "What are these sections and articles doing here?",
         "title": "What are these sections and articles doing here?",
         "source_locale": "en-us",
@@ -1510,7 +1510,7 @@
         "position": 0,
         "vote_sum": 0,
         "vote_count": 0,
-        "section_id": {{kb_section_announcements}},
+        "section_id": "{{kb_section_announcements}}",
         "name": "Welcome to your Help Center!",
         "title": "Welcome to your Help Center!",
         "source_locale": "en-us",
