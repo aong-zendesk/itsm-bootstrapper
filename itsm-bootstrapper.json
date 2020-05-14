@@ -382,41 +382,6 @@
           "raw_title": "{{zd.current_tasks}}"
         },
         {
-          "title": "Overdue tasks",
-          "active": true,
-          "position": 10,
-          "description": null,
-          "sort": {
-            "id": "assignee",
-            "title": "Assignee",
-            "order": "desc"
-          },
-          "output": {
-            "columns": [
-              "subject",
-              "requester",
-              "created",
-              "assignee",
-              "due_date"
-            ]
-          },
-          "all": [
-            {
-              "field": "status",
-              "operator": "less_than",
-              "value": "solved"
-            },
-            {
-              "field": "due_at",
-              "operator": "greater_than",
-              "value": "0"
-            }
-          ],
-          "any": [],
-          "restriction": null,
-          "raw_title": "{{zd.overdue_tasks}}"
-        },
-        {
           "title": "Recently solved tickets",
           "active": true,
           "position": 13,
