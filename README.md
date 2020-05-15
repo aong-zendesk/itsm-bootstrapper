@@ -62,7 +62,9 @@ Note: You will need to use the problem macro and add the link via the Knowledge 
 
 4. Note that the additional change field to track the change stage. Once approved, there will be an fullfillment task created to implement the change. 
 
-5. Assuming the implementation has completed, the agent will update the stage of the change request using macros and automatically add the change review team as followers to the change ticket. Explain the use of the ECAB macros to add the ECAB members to this change ticket if its an emergency change for visibility. Mention that we could use business rules such as triggers or automations to improve any other manual processes.
+5. Assuming the implementation has completed, the agent could update the stage of the change request using the change macros and automatically add the change review team as followers to the change ticket. 
+
+6. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as follwers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes.
 
 # TO DO
 - Incorporate HR Flow
