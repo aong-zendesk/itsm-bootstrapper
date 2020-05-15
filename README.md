@@ -16,6 +16,8 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 5. Please do the same for line 49 to link the "Knowledge" button directly to the FAQ and Announcement KB Category.
 
+6. Add at least 1 agent to the T2 Support group.
+
 Users created for the demo:
 
 - John Tan ECAB (ECAB Member)
