@@ -19,7 +19,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
 You may add more hardware or software that you feel that are relevant to the prospect. 
-Note you will need to edit the approvals app to add the appropriate CI and the knowledge article with an image.
+Note you will need to edit the approvals app to add the appropriate CI and to add the knowledge article with an image.
 
 2. Click on the top link to access the Service Catalog or click on the button on the front page "Requesting Something"
 
