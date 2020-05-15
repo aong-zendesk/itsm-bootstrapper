@@ -606,6 +606,106 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Problem - Assign to T2",
+        "active": true,
+        "actions": [
+          {
+            "field": "group_id",
+            "value": "{{group_t2support}}"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "field": "status",
+              "operator": "is",
+              "value": "new"
+            },
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "{{ticket_form_itrequests}}"
+            },
+            {
+              "field": "type",
+              "operator": "is",
+              "value": "problem"
+            }
+          ],
+          "any": []
+        },
+        "description": null,
+        "position": 10008,
+        "raw_title": "Problem - Assign to T2"
+      },
+      {
+        "title": "Change - Assign to T2",
+        "active": true,
+        "actions": [
+          {
+            "field": "group_id",
+            "value": "{{group_t2support}}"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "field": "status",
+              "operator": "is",
+              "value": "new"
+            },
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "{{ticket_form_changerequests}}"
+            }
+          ],
+          "any": []
+        },
+        "description": null,
+        "position": 10009,
+        "raw_title": "Change - Assign to T2"
+      },
+      {
+        "title": "IT Service Desk - Assign to T1",
+        "active": true,
+        "actions": [
+          {
+            "field": "group_id",
+            "value": "{{group_servicedesk}}"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "field": "status",
+              "operator": "is",
+              "value": "new"
+            },
+            {
+              "field": "ticket_form_id",
+              "operator": "is",
+              "value": "{{ticket_form_itrequests}}"
+            }
+          ],
+          "any": [
+            {
+              "field": "type",
+              "operator": "is",
+              "value": "question"
+            },
+            {
+              "field": "type",
+              "operator": "is",
+              "value": "incident"
+            }
+          ]
+        },
+        "description": null,
+        "position": 10010,
+        "raw_title": "IT Service Desk - Assign to T1"
       }
     ]
   },
