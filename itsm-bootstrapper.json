@@ -619,18 +619,8 @@
         "conditions": {
           "all": [
             {
-              "field": "status",
-              "operator": "is",
-              "value": "new"
-            },
-            {
-              "field": "ticket_form_id",
-              "operator": "is",
-              "value": "{{ticket_form_itrequests}}"
-            },
-            {
               "field": "type",
-              "operator": "is",
+              "operator": "value",
               "value": "problem"
             }
           ],
@@ -690,18 +680,7 @@
               "value": "{{ticket_form_itrequests}}"
             }
           ],
-          "any": [
-            {
-              "field": "type",
-              "operator": "is",
-              "value": "question"
-            },
-            {
-              "field": "type",
-              "operator": "is",
-              "value": "incident"
-            }
-          ]
+          "any": []
         },
         "description": null,
         "position": 10010,
