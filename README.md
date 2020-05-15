@@ -29,7 +29,7 @@ Note you will need to edit the approvals app to add the appropriate CI and to ad
 
 5. Click on the ticket that is generated, and walkthrough on the form field and the apps side bar.
 
-6. Optionally: Talk about the apps that are available on the marketplace that could provide more IT related functionality. Such as remote desktop or asset management.
+6. Optionally: Talk about the apps that are available on the marketplace that could provide more IT related functionality. Such as DevOps Integration or Remote desktop or Advanced Asset management.
 
 7. Refer to the approvals side bar app and click approve. You could explain that this is built using Sunshine which is available on the enterprise plan or otherwise they could also use an approval app that is available on the marketplace.
 
