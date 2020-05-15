@@ -44,12 +44,14 @@ Note you will need to edit the approvals app to add the appropriate CI and to ad
 
 3. Mentioned that since we have a knowledge of the current user's CI, the agent would be able to work more efficiently on the ticket.
 
-4. Explain the use of macro and mentioned that to the prospects that the agent have found out they have a surge of cases that seem related. Create another ticket and use the macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
+4. Explain the use of macro and mentioned that to the prospects that the agent have found out they noticed a surge of cases that seem related. Create another ticket and use the macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
 
 # Problem Management Flow
 1. In the problem ticket view, explain the use of the Knowledge capture app.
 
 2. Using the macros and the Knowledge Capture App, the agent could easily link Workaround, Known errors and Root cause related articles to the ticket.
+
+Note: You will need to use the problem macro and add the link via the Knowledge Capture App.
 
 # Change Management Flow
 1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explains that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
