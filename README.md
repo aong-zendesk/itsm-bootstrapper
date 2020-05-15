@@ -16,6 +16,13 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 5. Please do the same for line 49 to link the "Knowledge" button directly to the FAQ and Announcement KB Category.
 
+Users created for the demo:
+
+- John Tan ECAB (ECAB Member)
+- Peter Chan ECAB (ECAB Member)
+- Jason Lee Change Review (Change Review Process)
+- Chris Lim C Staff (C Staff)
+
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
 You may add more hardware or software that you feel that are relevant to the prospect. 
@@ -39,6 +46,8 @@ Note you will need to edit the approvals app to add the appropriate CI and to ad
 
 # Incident Management Flow
 1. Use the previous CI that was created from incident management as the scenario for the incident demo flow. Have the end user submit a case through email/phone/web form depending on your prospect's requirement.
+
+Note: If the end user is a C Staff, the ticket priority would be set to high and this will also meant that there is another SLA created specifically for C Staff's incidents and requests. You can find out if the end user is a C Staff by going to user profile's profile in Zendesk and look for the Employee Status field. 
 
 2. Once the case has submitted, revert back to the agent's interface to work on the ticket.
 
