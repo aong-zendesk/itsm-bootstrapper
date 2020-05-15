@@ -12,9 +12,9 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 3. Click "Edit Code"
 
-4. Click on homepage_hbs and edit the form ID on line 40, 43 and 46. 
+4. Click on homepage_hbs and edit the form ID on line 40 "Need help?", 43 "Requesting something?" and 46 "Submitting change?". 
 
-5. Please do the same for line 49 to link the button directly to the FAQ and Announcement KB Category.
+5. Please do the same for line 49 to link the "Knowledge" button directly to the FAQ and Announcement KB Category.
 
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
