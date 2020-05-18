@@ -1,4 +1,4 @@
-# **ITSM APAC DEMO 30mins**
+# **ITSM APAC DEMO**
 This Bootstrapper allows you to run the following demo scenarios:
 - Request Management
 - Incident Management
