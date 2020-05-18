@@ -49,7 +49,7 @@ Note you will need to edit the approvals app to add the appropriate CI and to ad
 # Incident Management Flow
 1. Use the previous CI that was created from incident management as the scenario for the incident demo flow. Have the end user submit a case through email/phone/web form depending on your prospect's requirement.
 
-Note: If the end user is a C Staff, the ticket priority would be set to high and this will also meant that there is another SLA created specifically for C Staff's incidents and requests. You can find out if the end user is a C Staff by going to user profile's profile in Zendesk and look for the Employee Status field. 
+Note: If the end user is a C Staff, the ticket priority would be set to high and this will also meant that there is another SLA created specifically for C Staff's incidents and requests. You can find out if the end user is a C Staff by going to user profile in Zendesk and look for the Employee Status field. 
 
 2. Once the case has submitted, revert back to the agent's interface to work on the ticket.
 
