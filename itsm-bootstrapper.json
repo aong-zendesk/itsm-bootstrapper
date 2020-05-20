@@ -65,7 +65,7 @@
       },
       "views": [
         {
-          "title": "📞 Requests Tickets",
+          "title": "💌 Requests Tickets",
           "active": true,
           "position": 1,
           "description": null,
@@ -95,7 +95,7 @@
           ],
           "any": [],
           "restriction": null,
-          "raw_title": "📞 Requests "
+          "raw_title": "💌 Requests "
         },
         {
           "title": "💻 Incidents Tickets",
