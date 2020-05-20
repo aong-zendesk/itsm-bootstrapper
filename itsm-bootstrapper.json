@@ -815,15 +815,15 @@
             "default": false
           },
           {
-            "name": "Hardware:: Macbook Pro 13-inch",
-            "raw_name": "Hardware:: Macbook Pro 13-inch",
-            "value": "hardware___macbook_pro_13-inch",
+            "name": "Hardware::Laptop::Macbook Pro 13-inch",
+            "raw_name": "Hardware::Laptop::Macbook Pro 13-inch",
+            "value": "hardware___laptop___macbook_pro_13-inch",
             "default": false
           },
           {
-            "name": "Hardware:: Huawei P30",
-            "raw_name": "Hardware:: Huawei P30",
-            "value": "hardware___huawei_p30",
+            "name": "Hardware::Phone::Huawei P30",
+            "raw_name": "Hardware::Phone::Huawei P30",
+            "value": "hardware___phone__huawei_p30",
             "default": false
           }
         ]
