@@ -41,7 +41,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 3. Replace "360040012212" with the KB Article ID. You can find out the article ID by opening it in the help center.
 
-4. Replace "$assets-msoffice-jpg" with the asset image file. You will need to add new assets in the assets folder and refer to the file names.
+4. Replace "$assets-msoffice-jpg" with the asset image file. You will need to add new assets in the assets folder and refer to the text listed in the "CSS" textfield. You can find out this info by clicking on the asset in the assets folder.
 
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
