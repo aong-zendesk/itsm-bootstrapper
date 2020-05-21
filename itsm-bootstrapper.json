@@ -417,15 +417,6 @@
         "role": "agent"
       },
       {
-        "name": "Jason Lee Change Review",
-        "email": "JasonLee@bootstrapper.com",
-        "reference_id": "user_jason_change_review",
-        "user_fields": {
-          "employee_status": "full_time_employee"
-        },
-        "role": "agent"
-      },
-      {
         "name": "Chris Lim C Staff",
         "email": "ChrisLim@bootstrapper.com",
         "reference_id": "user_chris_cstaff",
@@ -885,47 +876,6 @@
         ]
       },
       {
-        "type": "tagger",
-        "title": "Stage",
-        "raw_title": "Stage",
-        "description": "",
-        "raw_description": "",
-        "position": 9999,
-        "active": true,
-        "required": true,
-        "collapsed_for_agents": false,
-        "regexp_for_validation": null,
-        "title_in_portal": "Stage",
-        "reference_id": "ticket_field_changestage",
-        "raw_title_in_portal": "Stage",
-        "visible_in_portal": false,
-        "editable_in_portal": false,
-        "required_in_portal": false,
-        "tag": null,
-        "removable": true,
-        "agent_description": "Change Stage",
-        "custom_field_options": [
-          {
-            "name": "Evaluate",
-            "raw_name": "Evaluate",
-            "value": "evaluate",
-            "default": true
-          },
-          {
-            "name": "Implement",
-            "raw_name": "Implement",
-            "value": "implement",
-            "default": false
-          },
-          {
-            "name": "Review ",
-            "raw_name": "Review ",
-            "value": "review_",
-            "default": false
-          }
-        ]
-      },
-      {
         "type": "tickettype",
         "title": "Type",
         "raw_title": "Type",
@@ -1012,8 +962,7 @@
         "position": 2,
         "reference_id": "ticket_form_changerequests",
         "ticket_field_ids": [
-          "{{ticket_field_changetype}}",
-          "{{ticket_field_changestage}}"
+          "{{ticket_field_changetype}}"
         ],
         "active": true,
         "default": false,
@@ -1203,27 +1152,6 @@
           {
             "field": "comment_value",
             "value": "Here is the root cause article Link: \n\n"
-          }
-        ],
-        "restriction": null
-      },
-      {
-        "title": "Change:: Implementation Complete",
-        "active": true,
-        "position": 9,
-        "description": null,
-        "actions": [
-          {
-            "field": "{{ticket_field_changestage}}",
-            "value": "review_"
-          },
-          {
-            "field": "comment_value_html",
-            "value": "<p>Implementation completed.</p><p>Please review the implementation.</p>"
-          },
-          {
-            "field": "follower",
-            "value": "{{user_jason_change_review}}"
           }
         ],
         "restriction": null
