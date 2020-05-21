@@ -46,10 +46,6 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 4. Replace "$assets-msoffice-jpg" with the asset image file. You will need to add new assets in the assets folder and refer to the text listed in the "CSS" textfield. You can find out this info by clicking on the asset in the assets folder.
 
-**To Modify the Approver approver and Fulfiller**
-
-1. Click on the approvals configurations
-
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
 
