@@ -18,6 +18,10 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 6. Add at least 1 agent to the T2 Support group.
 
+7. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in the email addresses for each service request type and task type so that the approvals and task will be assigned. 
+
+# **Additional Info PLEASE READ**
+
 Users created for the demo:
 
 - John Tan ECAB (ECAB Member)
@@ -25,10 +29,23 @@ Users created for the demo:
 - Jason Lee Change Review (Change Review Process)
 - Chris Lim C Staff (C Staff)
 
+To Add Service Catalog Items
+
+1. Create the Knowledge article and publish it. You could copy and paste the existing articles and replace the images.
+
+2. To add icons onto the Service Catalog page in Zendesk, you would need to edit the code of the help center. Click edit code of the "Chain Frost Theme Builder" and add the following batch of code.
+
+.catalog-img-360040012212 {
+  background:url($assets-msoffice-jpg);
+}
+
+3. Replace "360040012212" with the KB Article ID. You can find out the article ID by opening it in the help center.
+
+4. Replace "$assets-msoffice-jpg" with the asset image file. You will need to add new assets in the assets folder and refer to the file names.
+
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
-You may add more hardware or software that you feel that are relevant to the prospect. 
-Note you will need to edit the approvals app to add the appropriate CI and to add the knowledge article with an image.
+**Note:** You may add more hardware or software that you feel that are relevant to the audience. Please refer to the above section for the steps to add new Service Catalog items.
 
 2. Click on the top link to access the Service Catalog or click on the button on the front page "Requesting Something"
 
