@@ -28,7 +28,6 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 - John Tan ECAB (ECAB Member)
 - Peter Chan ECAB (ECAB Member)
-- Jason Lee Change Review (Change Review Process)
 - Chris Lim C Staff (C Staff)
 - Prince Approver and Fulfiller (Default Approver and Fulfiller)
 
