@@ -402,25 +402,36 @@
         "name": "John Tan ECAB",
         "email": "johntan@bootstrapper.com",
         "reference_id": "user_john_ecab",
-        "{{user_field_employee_status}}": "full_time_employee"
+        "{{user_field_employee_status}}": "full_time_employee",
+        "role":"agent"
       },
       {
         "name": "Peter Chan ECAB",
         "email": "PeterChan@bootstrapper.com",
         "reference_id": "user_peter_ECAB",
-        "{{user_field_employee_status}}": "full_time_employee"
+        "{{user_field_employee_status}}": "full_time_employee",
+        "role":"agent"
       },
       {
         "name": "Jason Lee Change Review",
         "email": "JasonLee@bootstrapper.com",
         "reference_id": "user_jason_change_review",
-        "{{user_field_employee_status}}": "full_time_employee"
+        "{{user_field_employee_status}}": "full_time_employee",
+        "role":"agent"
       },
       {
         "name": "Chris Lim C Staff",
         "email": "ChrisLim@bootstrapper.com",
         "reference_id": "user_chris_cstaff",
-        "{{user_field_employee_status}}": "c_staff_employee"
+        "{{user_field_employee_status}}": "c_staff_employee",
+        "role":"end-user"
+      },
+      {
+        "name": "Prince Approver and Fulfiller ",
+        "email": "pgabalones@zendesk.com",
+        "reference_id": "user_chris_cstaff",
+        "{{user_field_employee_status}}": "c_staff_employee",
+         "role":"agent"
       }
     ],
     "add_groups": [
@@ -690,12 +701,6 @@
   },
   "apps": {
     "add_apps": [
-      {
-        "app_id": "6272",
-        "settings": {
-          "name": "Linked Tickets"
-        }
-      },
       {
         "app_id": "111872",
         "settings": {
