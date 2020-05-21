@@ -98,8 +98,8 @@ This Bootstrapper allows you to run the following demo scenarios:
 5. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as follwers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes.
 
 # TO DO
-[] Incorporate HR Flow
-[] Help Center Updates
-[] ITSM Explore Dashboard
+- [ ] Incorporate HR Flow
+- [ ] Help Center Updates
+- [ ] ITSM Explore Dashboard
 
 
