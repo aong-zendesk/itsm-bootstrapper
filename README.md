@@ -22,14 +22,14 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 # **Additional Info PLEASE READ**
 
-Users created for the demo:
+**Users created for the demo:**
 
 - John Tan ECAB (ECAB Member)
 - Peter Chan ECAB (ECAB Member)
 - Jason Lee Change Review (Change Review Process)
 - Chris Lim C Staff (C Staff)
 
-To Add Service Catalog Items
+**To Add Service Catalog Items**
 
 1. Create the Knowledge article and publish it. You could copy and paste the existing articles and replace the images.
 
