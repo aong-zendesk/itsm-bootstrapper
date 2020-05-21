@@ -95,13 +95,11 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 4. Note that the additional change field to track the change stage. Once approved, there will be an fullfillment task created to implement the change. 
 
-5. Assuming the implementation has completed, the agent could update the stage of the change request using the change macros and automatically add the change review team as followers to the change ticket. 
-
-6. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as follwers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes.
+5. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as follwers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes.
 
 # TO DO
-- Incorporate HR Flow
-- Help Center Updates
-- ITSM Explore Dashboard
+[] Incorporate HR Flow
+[] Help Center Updates
+[] ITSM Explore Dashboard
 
 
