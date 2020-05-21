@@ -16,9 +16,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 5. Please do the same for line 49 to link the "Knowledge" button directly to the FAQ and Announcement KB Category.
 
-6. Add at least 1 agent to the T2 Support group.
-
-7. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in **only email addresses** for each service request type and task type so that the approvals and task will be assigned. 
+6. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in **only email addresses** for each service request type and task type so that the approvals and task will be assigned. 
 
 7. While on the Approvals Configuration App, you would also need to fill in the form IDs as noted in step 1 of the setup steps here.
 
