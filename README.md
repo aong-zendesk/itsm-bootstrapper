@@ -33,7 +33,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 1. Create the Knowledge article and publish it. You could copy and paste the existing articles and replace the images.
 
-2. To add icons onto the Service Catalog page in Zendesk, you would need to edit the code of the help center. Click edit code of the "Chain Frost Theme Builder" and add the following batch of code.
+2. To add icons onto the Service Catalog page in Zendesk, you would need to edit the code of the help center. Click edit code of the "Chain Frost Theme Builder" and add the following batch of code in "style.css".
 
 .catalog-img-360040012212 {
   background:url($assets-msoffice-jpg);
