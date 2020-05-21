@@ -37,9 +37,11 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 2. To add icons onto the Service Catalog page in Zendesk, you would need to edit the code of the help center. Click edit code of the "Chain Frost Theme Builder" and add the following batch of code in "style.css".
 
+```
 .catalog-img-360040012212 {
   background:url($assets-msoffice-jpg);
 }
+```
 
 3. Replace "360040012212" with the KB Article ID. You can find out the article ID by opening the article in the help center.
 
