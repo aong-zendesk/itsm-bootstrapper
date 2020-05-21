@@ -18,7 +18,9 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 6. Add at least 1 agent to the T2 Support group.
 
-7. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in the email addresses for each service request type and task type so that the approvals and task will be assigned. 
+7. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in **only email addresses** for each service request type and task type so that the approvals and task will be assigned. 
+
+7. While on the Approvals Configuration App, you would also need to fill in the form IDs as noted in step 1 of the setup steps here.
 
 # **Additional Info PLEASE READ**
 
@@ -28,6 +30,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 - Peter Chan ECAB (ECAB Member)
 - Jason Lee Change Review (Change Review Process)
 - Chris Lim C Staff (C Staff)
+- Prince Approver and Fulfiller (Default Approver and Fulfiller)
 
 **To Add Service Catalog Items**
 
@@ -39,9 +42,13 @@ This Bootstrapper allows you to run the following demo scenarios:
   background:url($assets-msoffice-jpg);
 }
 
-3. Replace "360040012212" with the KB Article ID. You can find out the article ID by opening it in the help center.
+3. Replace "360040012212" with the KB Article ID. You can find out the article ID by opening the article in the help center.
 
 4. Replace "$assets-msoffice-jpg" with the asset image file. You will need to add new assets in the assets folder and refer to the text listed in the "CSS" textfield. You can find out this info by clicking on the asset in the assets folder.
+
+**To Modify the Approver approver and Fulfiller**
+
+1. Click on the approvals configurations
 
 # Request Management Flow 
 1. Impersonate as an end user and go to the help center to request for a hardware or software.
