@@ -16,9 +16,15 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 5. Please do the same for line 49 to link the "Knowledge" button directly to the FAQ and Announcement KB Category.
 
-6. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in **only email addresses** for each service request type and task type so that the approvals and task will be assigned. 
+6. The "submit" button on the service catalog pages are linked directly to instance. So please change the Zendesk instance domain and the include the form ID. 
 
-7. While on the Approvals Configuration App, you would also need to fill in the form IDs as noted in step 1 of the setup steps here.
+```
+<button onclick=\"window.location.href='https://[CHANGE TO YOUR OWN DOMAIN].zendesk.com/hc/en-us/requests/new?ticket_form_id=[INCLUDE THE FORM ID FOR THE SERVICE CATALOG FORM]'\">Submit Request</button>
+```
+
+7. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in **only email addresses** for each service request type and task type so that the approvals and task will be assigned. 
+
+8. While on the Approvals Configuration App, you would also need to fill in the form IDs as noted in step 1 of the setup steps here.
 
 # **Additional Info PLEASE READ**
 
