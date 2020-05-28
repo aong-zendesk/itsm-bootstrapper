@@ -16,7 +16,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 5. Please do the same for line 49 to link the "Knowledge" button directly to the FAQ and Announcement KB Category.
 
-6. The "submit" button on the service catalog pages are linked directly to instance. So please change the Zendesk instance domain and the include the form ID. 
+6. The "submit" button on the service catalog pages are linked directly to the instance. So please change the Zendesk instance domain and the include the form ID. 
 
 ```
 <button onclick=\"window.location.href='https://[CHANGE TO YOUR OWN DOMAIN].zendesk.com/hc/en-us/requests/new?ticket_form_id=[INCLUDE THE FORM ID FOR THE SERVICE CATALOG FORM]'\">Submit Request</button>
