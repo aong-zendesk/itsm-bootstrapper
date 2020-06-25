@@ -24,7 +24,8 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 7. Click on the Approvals Configuration app on the main navigation bar on the left in Zendesk and fill in **only email addresses** for each service request type and task type so that the approvals and task will be assigned. 
 
-8. While on the Approvals Configuration App, you would also need to fill in the form IDs as noted in step 1 of the setup steps here.
+8. While on the Approvals Configuration App, you would also need to select the correct form and form field like so
+![Image of Config](https://i.ibb.co/Ns5WcFb/11111.png)
 
 # **Additional Info PLEASE READ**
 
