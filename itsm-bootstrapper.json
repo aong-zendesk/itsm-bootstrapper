@@ -531,7 +531,7 @@
             {
               "field": "current_tags",
               "operator": "includes",
-              "value": "c_staff_employee"
+              "value": "c_staff_employee" 
             }
           ],
           "any": []
