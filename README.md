@@ -110,7 +110,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 6. Once approved, there will be two tasks created. A review task and an implement ask. Refresh the side bar app to see the tasks.
 
-7. Optionally: Complete each of this task, to close off the change request. Also remind them that there are SLAs for each ticket that is created to measure efficiency and performance.
+7. Optionally: Complete each of this task to close off the change request. Also remind them that there are SLAs for each ticket that is created to measure efficiency and performance.
 
 8. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as folleers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes or integrate with other systems to form a complete change process.
 
