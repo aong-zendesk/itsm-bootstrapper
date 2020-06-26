@@ -59,7 +59,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 2. Click on the top link to access the Service Catalog or click on the button on the front page "Requesting Something"
 
-3. View the knowledge article and click on the button "Submit Request" at the bottom of the article. Fill in the form. For example: Subject: Requesting for a phone. Description: Current phone is damaged.
+3. View the knowledge article and click on the button "Submit Request" at the bottom of the article. Fill in the form. For example: Subject: Requesting for a phone. Description: Current phone needs to be replaced.
 
 4. Revert back to the agent's interface and walkthough on the landing page and the views.
 
@@ -67,40 +67,50 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 6. Optionally: Talk about the apps that are available on the marketplace that could provide more IT related functionality. Such as DevOps Integration or Remote desktop or Advanced Asset management.
 
-7. Refer to the approvals side bar app and click approve. You could explain that this is built using Sunshine which is available on the enterprise plan or otherwise they could also use an approval app that is available on the marketplace.
+7. Refer to the approvals side bar app and click approve. You could explain that this is all built using Sunshine which is available on the enterprise plan or otherwise they could also use an approval app that is available on the marketplace.
 
-8. Once approved, there will be a fullfillment task created that will be assigned to the IT team to procure/process the CI for the end user. Mentioned that there will be different SLAs tracking different type of tickets within Zendesk.
+8. Once approved, there will be a fullfillment task. Refresh the side bar app to see the fulfillment task created. The task  will be assigned to the IT team to procure/process the CI for the end user. Mentioned that there will be different SLAs tracking different type of tickets within Zendesk.
 
-9. Once the fullfillment task has completed. The CI would be automatically created and attached to the user's profile. This would be helpful as this can provide more information on Incident management. 
+9. Click into the task that will opened up a subticket. Click again on the side bar app to set the task status to complete. 
+
+10. Click back onto the original ticket and you could see the CI created and assigned to the User. This will be helpful as you could assign this CI to the ticket in the next demo flow - Incident Management.
 
 # Incident Management Flow
-1. Use the previous CI that was created from incident management as the scenario for the incident demo flow. Have the end user submit a case through email/phone/web form depending on your prospect's requirement.
+1. Create and Incident ticket or have the end user submit a case through email/phone/web form depending on your prospect's requirement.
 
 **Note:** If the end user is a C Staff, the ticket priority would be set to high and this will also meant that there is another SLA created specifically for C Staff's incidents and requests. You can find out if the end user is a C Staff by going to user profile in Zendesk and look for the Employee Status field. 
 
 2. Once the case has submitted, revert back to the agent's interface to work on the ticket.
 
-3. Mentioned that since we have a knowledge of the current user's CI, the agent would be able to work more efficiently on the ticket.
+3. Using the CMDB 360 App, we can find out which CI is the end user refering and assign it to the ticket. Click assign on the CI that is affected and it would be moved to the "Related CI" section.
 
-4. Explain the use of macro and mentioned that to the prospects that the agent have found out they noticed a surge of cases that seem related. Create another ticket and use the macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
+4. Explain the use of macros and mentioned that to the prospects that the agent have found out they noticed a surge of cases that seem related. Create another ticket and use the "Incident" macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
 
 # Problem Management Flow
 1. In the problem ticket view, explain the use of the Knowledge capture app.
 
-2. Using the macros and the Knowledge Capture App, the agent could easily link Workaround, Known errors and Root cause related articles to the ticket.
+2. Click back onto the Incident ticket and link this problem ticket in the problem ticket field. Explain the relationship and the advantages on such feature.
+
+3. Using the problem macros and the Knowledge Capture App, the agent could easily link Workaround, Known errors and Root cause related articles to the ticket.
 
 **Note:** You will need to use the problem macro and add the link via the Knowledge Capture App.
 
 # Change Management Flow
-1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explains that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
+1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explain that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
 
-2. Have the agent create a normal change ticket, and approve via the approval app. 
+2. Assign a CI to the change ticket, you could use "patching a server scenario" and create a Server CI before you start this demo flow.
 
-3. Optionally: You could impersonate as another user to approve the change request.
+3. Have the agent create a normal change ticket and assign the CI to the ticket.
 
-4. Note that the additional change field to track the change stage. Once approved, there will be an fullfillment task created to implement the change. 
+4. Refresh the side bar app to see the approvals and approve the change ticket. Mentioned that multiple levels of approval could also be setup if it is required.
 
-5. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as follwers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes.
+5. Optionally: You could impersonate as another user to approve the change request if the requester is not the approver as configued in the approvals configuration app.
+
+6. Once approved, there will be two tasks created. A review task and an implement ask. Refresh the side bar app to see the tasks.
+
+7. Optionally: Complete each of this task, to close off the change request. Also remind them that there are SLAs for each ticket that is created to measure efficiency and performance.
+
+8. Optionally: Explain the use of the ECAB macro to add the ECAB members to this change ticket as folleers if it is an emergency change for visibility. Mention that we could use business rules such as triggers or automations to shorten any other manual processes or integrate with other systems to form a complete change process.
 
 # TO DO
 - [ ] Incorporate HR Flow
