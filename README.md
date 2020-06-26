@@ -69,6 +69,8 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 7. Refer to the approvals side bar app and click approve. You could explain that this is all built using Sunshine which is available on the enterprise plan or otherwise they could also use an approval app that is available on the marketplace.
 
+**Note:** If you have not change the approvals configuration app, the approver and assignees to the tasks created will be "aong@zendesk.com". Only the user "Alvin Ong" will be able to approve and complete tasks.
+
 8. Once approved, there will be a fullfillment task. Refresh the side bar app to see the fulfillment task created. The task  will be assigned to the IT team to procure/process the CI for the end user. Mentioned that there will be different SLAs tracking different type of tickets within Zendesk.
 
 9. Click into the task that will opened up a subticket. Click again on the side bar app to set the task status to complete. 
@@ -98,7 +100,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 # Change Management Flow
 1. When a change is required to implement a workaround due to the problem ticket, the agent could create a ticket under the change ticket form. Explain that the type of changes that the agent could use for a change management process. Standard changes are changes that does not need approvals, while normal and emergency changes would require approval.
 
-2. Assign a CI to the change ticket. For eg. The ticket could be about patching a server for the latest security update and therefore you could create a Server CI before you start this demo. You could add any other CI directly from the CMDB 360 app.
+2. Assign a CI to the change ticket and use the user "Prince". For eg. The ticket could be about patching a server for the latest security update and therefore you could create a Server CI before you start this demo. You could add any other CI directly from the CMDB 360 app.
 
 3. Have the agent create a normal change ticket and assign the CI to the ticket.
 
