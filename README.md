@@ -27,7 +27,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 8. While on the Approvals Configuration App, you would also need to select the correct form and form field like the screenshot below:
 ![Image of Config](https://i.ibb.co/Ns5WcFb/11111.png)
 
-# **Additional Info PLEASE READ**
+# **Additional Info**
 
 **Users created for the demo:**
 
