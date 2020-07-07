@@ -71,11 +71,13 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 **Note:** If you have not change the approvals configuration app, the approver and assignees to the tasks created will be "aong@zendesk.com". Only the user "Alvin Ong" will be able to approve and complete tasks.
 
-8. Once approved, there will be a fullfillment task. Refresh the side bar app to see the fulfillment task created. The task  will be assigned to the IT team to procure/process the CI for the end user. Mentioned that there will be different SLAs tracking different type of tickets within Zendesk.
+8. Once approved, there will be a fullfillment task created. You will be able to see the task link in the comments. The task  will be assigned to the IT team to procure/process the CI for the end user. Mentioned that there will be different SLAs tracking different type of tickets within Zendesk.
 
-9. Click into the task that will opened up a subticket. Click again on the side bar app to set the task status to complete. 
+9. Click into the task link from the comments that will opened up a subticket. 
 
-10. Click back onto the original ticket and you could see the CI created and assigned to the User. This will be helpful as you could assign this CI to the ticket in the next demo flow - Incident Management.
+10. Click on the side bar app to set the task status to complete. 
+
+11. Click back onto the original ticket and you could see the CI created and assigned to the User. This will be helpful as you could assign this CI to the ticket in the next demo flow - Incident Management.
 
 # Incident Management Flow
 1. Create and Incident ticket or have the end user submit a case through email/phone/web form depending on your prospect's requirement.
@@ -85,6 +87,8 @@ This Bootstrapper allows you to run the following demo scenarios:
 2. Once the case has submitted, revert back to the agent's interface to work on the ticket.
 
 3. Using the CMDB 360 App, we can find out which CI is the end user refering and assign it to the ticket. Click assign on the CI that is affected and it would be moved to the "Related CI" section.
+
+**Note:** You could also create a CI directly in this step instead of assigning. Fill in the CI Type and Model and click assign.
 
 4. Explain the use of macros and mentioned that to the prospects that the agent have found out they noticed a surge of cases that seem related. Create another ticket and use the "Incident" macro to upgrade this to a problem ticket, and explain the use of relating the incidents to the problem ticket.
 
@@ -108,7 +112,7 @@ This Bootstrapper allows you to run the following demo scenarios:
 
 5. Optionally: You could impersonate as another user to approve the change request if the requester is not the approver as configued in the approvals configuration app.
 
-6. Once approved, there will be two tasks created. A review task and an implement ask. Refresh the side bar app to see the tasks.
+6. Once approved, there will be two tasks created within the comments. A review task and an implement task
 
 7. Optionally: Complete each of this task to close off the change request. Also remind them that there are SLAs for each ticket that is created to measure efficiency and performance.
 
