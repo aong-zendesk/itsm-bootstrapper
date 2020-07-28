@@ -890,7 +890,7 @@
         ]
       },
       {
-        "type": "tickettype",
+        "type": "tagger",
         "title": "Type",
         "raw_title": "Type",
         "description": "Request type",
